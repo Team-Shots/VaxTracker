@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">VaxTracker</string>
+    <string name="image">Image</string>
+    <string name="searchicon">Search Icon</string>
+    <string name="welcome">Welcome to Vax Tracker!</string>
+    <string name="zipcode">Enter Your Zip Code</string>
+    <string name="zipcode_hint">zipcode_hint</string>
+    <string name="location_button">Find a Location Near You</string>
+    <string name="currentlocation_button">Use My Current Location</string>
 </resources>
