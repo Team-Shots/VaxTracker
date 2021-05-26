@@ -13,4 +13,12 @@
     <string name="display_locations">Locations near</string>
     <string name="current_location"> ---current location placeholder---</string>
 
+    <string name="AppointmentDetails">Monday, June 5th @2:30PM</string>
+    <string name="AppointmentReview">Please review your appointment details below:</string>
+    <string name="AddToCalButton">Add to Your Calendar</string>
+    <string name="ConfirmText">You\'re All Set!</string>
+    <string name="calicon">CalIcon</string>
+    <string name="Location">Fred Meyer</string>
+    <string name="LocationAddress">12221 120th Ave NE, Kirkland, WA 98034</string>
+
 </resources>
