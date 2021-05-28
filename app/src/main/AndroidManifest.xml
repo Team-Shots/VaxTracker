@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VaxTracker">
-        <activity android:name=".ConfirmationActivity"></activity>
+        <activity android:name=".DetailsActivity"></activity>
+        <activity android:name=".ConfirmationActivity" />
         <activity android:name=".LocationsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

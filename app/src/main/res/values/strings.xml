@@ -21,4 +21,9 @@
     <string name="Location">Fred Meyer</string>
     <string name="LocationAddress">12221 120th Ave NE, Kirkland, WA 98034</string>
 
+
+    <string name="SelectDifferentLocation"> Select a Different Location </string>
+    <string name="ScheduleOnline"> 🌎 Schedule online</string>
+    <string name="PhoneNumber"> 📞Call directly by number:  </string>
+
 </resources>
