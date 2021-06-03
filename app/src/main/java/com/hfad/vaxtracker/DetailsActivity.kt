@@ -1,7 +1,7 @@
 package com.hfad.vaxtracker
 
 import androidx.appcompat.app.AppCompatActivity
-import android.content.Intent;
+import android.content.Intent
 
 import android.os.Bundle
 import android.widget.Button
@@ -14,16 +14,16 @@ class DetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
 
-        //val btnOpenFirstPage : Button = findViewById(R.id.button)
-        // btnOpenFirstPage.setOnClickListener {
-        // val intent = Intent(this, FirstPage :: class.java )
-        // startActivity(intent)
-        //  }
+        val btnOpenFirstPage : Button = findViewById(R.id.button)
+        btnOpenFirstPage.setOnClickListener {
+        val intent = Intent(this, MainActivity :: class.java )
+         startActivity(intent)
+          }
 
-        //val btnOpenFourthPage: Button = findViewById(R.id.button2)
-        //btnOpenFourthPage.setOnClickListener {
-        //  val intent = Intent(this, ConnerPage :: class.java )
-        //startActivity(intent)
-        //}
+        val btnOpenFourthPage: Button = findViewById(R.id.button2)
+        btnOpenFourthPage.setOnClickListener {
+          val intent = Intent(this, ConfirmationActivity :: class.java )
+        startActivity(intent)
+        }
     }
 }
