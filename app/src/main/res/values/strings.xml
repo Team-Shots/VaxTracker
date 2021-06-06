@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">VaxTracker</string>
 
-    <string name="image">Image</string>
+    <string name="home_icon">Vax Tracker Icon</string>
     <string name="searchicon">Search Icon</string>
     <string name="welcome">Welcome to Vax Tracker!</string>
     <string name="zipcode_hint">Enter Your Zip Code</string>
