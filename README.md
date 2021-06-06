@@ -1,1 +1,3 @@
 # VaxTracker
+
+VaxTracker is an easy-to-use COVID vaccine appointment finder mobile application. Our application allows users to search nearby locations with available appointments using their phones' GPS or by entering a zip code. The app will display the nearest vaccine locations. Users can select any location to view more information, visit their website, set up an appointment online or call the locations' phone number.
