@@ -4,8 +4,7 @@
     <string name="image">Image</string>
     <string name="searchicon">Search Icon</string>
     <string name="welcome">Welcome to Vax Tracker!</string>
-    <string name="zipcode">Enter Your Zip Code</string>
-    <string name="zipcode_hint">zipcode_hint</string>
+    <string name="zipcode_hint">Enter Your Zip Code</string>
     <string name="location_button">Find a Location Near You</string>
     <string name="currentlocation_button">Use My Current Location</string>
 
@@ -22,8 +21,14 @@
     <string name="LocationAddress">12221 120th Ave NE, Kirkland, WA 98034</string>
 
 
-    <string name="SelectDifferentLocation"> Select a Different Location </string>
-    <string name="ScheduleOnline"> 🌎 Schedule online</string>
-    <string name="PhoneNumber"> 📞Call directly by number:  </string>
+    <string name="SelectDifferentLocation"> Select a Different Location</string>
+    <string name="ScheduleOnline"> 🌎 Schedule Appointment Online</string>
+    <string name="PhoneNumber"> 📞 555-555-5555</string>
+
+    <string-array name="found_locations">
+        <item>Loc 1</item>
+        <item>Loc 2</item>
+        <item>Loc 3</item>
+    </string-array>
 
 </resources>
