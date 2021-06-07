@@ -1,14 +1,21 @@
 package com.hfad.vaxtracker
 
 import android.content.Intent
+import android.location.Location
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.AdapterView.OnItemClickListener
 import android.widget.ListView
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationRequest
+import com.google.android.gms.location.LocationServices
 
 class LocationsActivity : AppCompatActivity() {
+
+    private lateinit var fusedLocationClient: FusedLocationProviderClient
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
         // variables to compare distance between locations
@@ -19,6 +26,8 @@ class LocationsActivity : AppCompatActivity() {
         // variable to store results of distance calculation
         var distance = FloatArray(3)
 
+
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_locations)
@@ -42,5 +51,18 @@ class LocationsActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
+
+        
+
+        //Create the location request and set the parameters
+
+        fun createLocationRequest() {
+            val locationRequest = LocationRequest.create()?.apply {
+                interval = 10000
+                fastestInterval = 5000
+                priority = LocationRequest.PRIORITY_HIGH_ACCURACY
+            }
+        }
+
     }
 }
