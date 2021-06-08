@@ -1,0 +1,750 @@
+ID,longtitude,latitude,properties_url,properties_city,properties_name,properties/state,address,postal_code,provider_brand_name
+1,-122.682,47.654,https://www.costco.com/covid-vaccine.html,SILVERDALE,Silverdale,WA,10000 MICKELBERRY RD NW,98383,Costco
+2,-122.121,47.355,https://www.costco.com/covid-vaccine.html,COVINGTON,Covington,WA,27520 COVINGTON WAY SE,98042,Costco
+3,-122.344,47.776,https://www.costco.com/covid-vaccine.html,SHORELINE,Aurora Village,WA,1175 N 205TH ST,98133,Costco
+4,-122.189,48.148,https://www.costco.com/covid-vaccine.html,MARYSVILLE,Marysville,WA,16616 TWIN LAKES AVE,98271,Costco
+5,-122.27875,47.635561,https://pharmaca.as.me/madisonpark,Seattle,Seattle (Madison Park),WA,4130 E Madison St.,98112,Pharmaca
+6,-123.125,48.079,https://www.costco.com/covid-vaccine.html,SEQUIM,Sequim,WA,955 W WASHINGTON ST,98382,Costco
+7,-122.467,47.225,https://www.costco.com/covid-vaccine.html,TACOMA,Tacoma,WA,2219 S 37TH ST,98409,Costco
+8,-120.496,46.565,https://www.costco.com/covid-vaccine.html,UNION GAP,Union Gap,WA,2310 LONGFIBRE RD,98903,Costco
+9,-122.2243,47.7918,https://www.kroger.com/rx/covid-eligibility,Bothell,QFC T-Mobile Canyon Pointe South,WA,22309 30th Dr SE,98021,Kroger COVID
+10,-122.1841547,47.7078712,https://www.fredmeyer.com/rx/covid-eligibility,Kirkland,Fred Meyer - Fred Meyer Kirkland,WA,12221 120th Ave NE,98034,Fred Meyer
+11,-122.3076,47.7933,https://www.kroger.com/rx/covid-eligibility,Mountlake Terrace,QFC-Premera Drivethrough,WA,7001 220th St SW,98043,Kroger COVID
+12,-122.2316197,47.9206159,https://www.fredmeyer.com/rx/covid-eligibility,Everett,Fred Meyer - Everett,WA,8530 Evergreen Way,98208,Fred Meyer
+13,-122.2472,47.9017,https://www.kroger.com/rx/covid-eligibility,Everett,Comcast,WA,900 132nd St SW,98204,Kroger COVID
+14,-122.2729081,47.8475416,https://www.fredmeyer.com/rx/covid-eligibility,Lynnwood,Fred Meyer - Alderwood,WA,2902 164Th St Sw,98087,Fred Meyer
+15,-119.235,46.226,https://www.costco.com/covid-vaccine.html,KENNEWICK,Kennewick,WA,8505A W. GAGE BLVD,99336,Costco
+16,-122.149,47.779,https://www.costco.com/covid-vaccine.html,WOODINVILLE,Woodinville,WA,24008 SNOHOMISH WOODINVILLE RD,98072,Costco
+17,-122.183,47.681,https://www.costco.com/covid-vaccine.html,KIRKLAND,Kirkland,WA,8629 120TH AVE NE,98033,Costco
+18,-122.329,47.565,https://www.costco.com/covid-vaccine.html,SEATTLE,Seattle,WA,4401 4TH AVE S,98134,Costco
+19,-117.385,47.767,https://www.costco.com/covid-vaccine.html,SPOKANE,N Spokane,WA,12020 N NEWPORT HWY,99218,Costco
+20,-122.313761,47.821848,https://www.cvs.com/vaccine/intake/store/cvd-schedule,LYNNWOOD,"CVS Pharmacy in LYNNWOOD, WA",WA,19507 HIGHWAY 99,98036,CVS
+21,-117.1977,47.6421,https://www.kroger.com/rx/covid-eligibility,Spokane Valley,Spokane Valley Fred Meyer Vaccine Clinic,WA,15609 E Sprague Ave,99037,Kroger COVID
+22,-117.333,47.657,https://www.costco.com/covid-vaccine.html,SPOKANE,Spokane,WA,5601 E SPRAGUE AVE,99212,Costco
+23,-122.3588638,47.2979032,https://www.fredmeyer.com/rx/covid-eligibility,Federal Way,Fred Meyer - Federal Way,WA,33702 21St Ave Sw,98023,Fred Meyer
+24,-122.4405,47.2545,https://www.kroger.com/rx/covid-eligibility,Tacoma,City of Tacoma vaccination event,WA,1102 A St,98402,Kroger COVID
+25,-122.5290968,47.2442399,https://www.fredmeyer.com/rx/covid-eligibility,Tacoma,Fred Meyer - James Center,WA,6901 S 19Th St,98466,Fred Meyer
+26,-122.5288898,47.2006877,https://www.fredmeyer.com/rx/covid-eligibility,University Place,Fred Meyer - University Place,WA,6305 Bridgeport Way W,98467,Fred Meyer
+27,-117.049459,46.422883,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Clarkston,Clarkston Supercenter,WA,306 5th St,99403,Walmart
+28,-122.8308983,47.0410766,https://www.fredmeyer.com/rx/covid-eligibility,Lacey,Fred Meyer - Lacey,WA,700 Sleater Kinney Rd Se,98503,Fred Meyer
+29,-123.8385713,46.976351,https://www.healthmartcovidvaccine.com/,Aberdeen,Aberdeen Health Mart Pharmacy,WA,1812 Sumner Avenue,98520,Health Mart
+30,-122.1327619,47.6214377,https://www.healthmartcovidvaccine.com/,Bellevue,Pharmacy Plus Health Mart Pharmacy,WA,1299 156th Avenue NE #140,98007,Health Mart
+31,-122.1664014,47.6290917,https://www.healthmartcovidvaccine.com/,BELLEVUE,ALTO PHARMACY,WA,13010 NE 20TH ST #200,98005,Health Mart
+32,-119.4873235,46.2638047,https://www.healthmartcovidvaccine.com/,BENTON CITY,Logar Health Mart Pharmacy,WA,516 9TH ST. STE B,99320,Health Mart
+33,-117.5762939,47.48693085,https://www.healthmartcovidvaccine.com/,CHENEY,CHENEY OWL PHARMACY,WA,120 F ST,99004,Health Mart
+34,-117.0574781,46.4029618,https://www.healthmartcovidvaccine.com/,CLARKSTON,OWL TRI-STATE PHARMACY,WA,1275 HIGHLAND AVE,99403,Health Mart
+35,-117.3643729,46.8803555,https://www.healthmartcovidvaccine.com/,Colfax,Tick Klock Health Mart Pharmacy,WA,S 109 MAIN,99111,Health Mart
+36,-117.9809973,46.3195032,https://www.healthmartcovidvaccine.com/,DAYTON,Elk Drug Health Mart,WA,176 EAST MAIN STREET,99328,Health Mart
+37,-121.9857392,47.7411084,https://www.healthmartcovidvaccine.com/,Duvall,Duvall Family Health Mart,WA,15602 MAIN ST,98019,Health Mart
+38,-120.2930296,47.4131879,https://www.healthmartcovidvaccine.com/,EAST WENATCHEE,Washington Valley Pharmacy LLC,WA,636 VALLEY MALL PKWY #7,98802,Health Mart
+39,-122.3120999,47.3162184,https://www.healthmartcovidvaccine.com/,FEDERAL WAY,Highland Health Mart Pharmacy,WA,"31840 Pacific Hwy S., Suite #A2",98003,Health Mart
+40,-121.9668797,48.0836494,https://www.healthmartcovidvaccine.com/,GRANITE FALLS,Pharm-A-Save,WA,207 E STANLEY ST #A,98252,Health Mart
+41,-122.5044919,47.1555866,https://www.healthmartcovidvaccine.com/,LAKEWOOD,INTERNATIONAL PHARMACY,WA,11228 BRIDGEPORT WAY SW,98499,Health Mart
+42,-117.0440532,48.1784513,https://www.healthmartcovidvaccine.com/,Newport,Seeber's Health Mart Pharmacy,WA,336 S WASHINGTON,99156,Health Mart
+43,-118.6911268,47.3332931,https://www.healthmartcovidvaccine.com/,Odessa,Odessa Drugs Health Mart Pharmacy,WA,19 WEST FIRST AVE,99159,Health Mart
+44,-119.435826,48.939179,https://www.healthmartcovidvaccine.com/,OROVILLE,OROVILLE PHARMACY,WA,1416 MAIN ST,98844,Health Mart
+45,-122.5955464,47.5324309,https://www.healthmartcovidvaccine.com/,PORT ORCHARD,SOUTH PARK REXALL,WA,1743 VILLAGE LN SE,98366,Health Mart
+46,-122.7682268,48.1098565,https://www.healthmartcovidvaccine.com/,PORT TOWNSEND,Jefferson Family Pharmacy,WA,2005 E SIMS WAY,98368,Health Mart
+47,-119.7860556,46.2168694,https://www.healthmartcovidvaccine.com/,PROSSER,Benton Southgate Pharmacy,WA,471 WINE COUNTRY RD,99350,Health Mart
+48,-119.8739377,47.2306943,https://www.healthmartcovidvaccine.com/,QUINCY,WASHINGTON PHARMACY,WA,918 13TH AVE SW SUITE F,98848,Health Mart
+49,-122.1422588,47.6477211,https://www.healthmartcovidvaccine.com/,REDMOND,OVERLAKE PHARMACY,WA,4124 148TH AVE NE STE J,98052,Health Mart
+50,-122.1656599,47.4880921,https://www.healthmartcovidvaccine.com/,RENTON,HimeRx Pharmacy,WA,3901 NE 4TH ST SUITE 102A,98056,Health Mart
+51,-118.7376682,48.6478654,https://www.healthmartcovidvaccine.com/,REPUBLIC,Republic Drug Store,WA,6 N CLARK AVE,99166,Health Mart
+52,-117.5823291,47.0920236,https://www.healthmartcovidvaccine.com/,Saint John,St. John Health Mart Pharmacy,WA,10 E FRONT ST,99171,Health Mart
+53,-122.3254487,47.597326,https://www.healthmartcovidvaccine.com/,Seattle,Lukes Health Mart Pharmacy,WA,611 Maynard Avenue S,98104,Health Mart
+54,-122.2801409,47.5369002,https://www.healthmartcovidvaccine.com/,Seattle,OTHELLO STATION PHARMACY,WA,4219 S OTHELLO ST #105F,98118,Health Mart
+55,-122.3020651,47.5839407,https://www.healthmartcovidvaccine.com/,SEATTLE,Nguyen Pharmacy #1,WA,"2120 RAINIER AVE S, STE A",98144,Health Mart
+56,-122.3161073,47.5996933,https://www.healthmartcovidvaccine.com/,SEATTLE,NGUYEN PHARMACY #2,WA,1221 S. MAIN ST STE 103,98144,Health Mart
+57,-117.2365562,47.6721382,https://www.healthmartcovidvaccine.com/,SPOKANE,Valley Mission Homecare Pharmacy,WA,12509 E MISSION AVE # 103,99216,Health Mart
+58,-117.3896484,47.68935013,https://www.healthmartcovidvaccine.com/,SPOKANE,LIDGERWOOD OWL PHARMACY,WA,220 E ROWAN AVE #170,99207,Health Mart
+59,-122.5357374,47.2208474,https://www.healthmartcovidvaccine.com/,UNIVERSITY PLACE,UP Pharmacy,WA,7311 40TH ST W,98466,Health Mart
+60,-122.5666445,45.6238569,https://www.healthmartcovidvaccine.com/,VANCOUVER,PREFERRED RX PHARMACY INC,WA,10303 NE FOURTH PLAIN BLVD STE 109,98662,Health Mart
+61,-120.3225673,47.4342759,https://www.healthmartcovidvaccine.com/,Wenatchee,Wenatchee Clinic Health Mart Pharmacy,WA,9TH & CHELAN ST,98807,Health Mart
+62,-120.5586953,46.592711,https://www.healthmartcovidvaccine.com/,Yakima,Tieton Village Health Mart Pharmacy,WA,3708 Tieton Drive,98902,Health Mart
+63,-122.76,47.06,https://www.costco.com/covid-vaccine.html,LACEY,Lacey,WA,1470 MARVIN RD NE,98516,Costco
+64,-122.918,46.997,https://www.costco.com/covid-vaccine.html,TUMWATER,Tumwater,WA,5500 LITTLEROCK RD SW,98512,Costco
+65,-122.207,47.905,https://www.costco.com/covid-vaccine.html,EVERETT,Everett WA,WA,10200 19TH AVE SE,98208,Costco
+66,-117.044,46.423,https://www.costco.com/covid-vaccine.html,CLARKSTON,Clarkston,WA,301 5TH ST,99403,Costco
+67,-122.251,47.445,https://www.costco.com/covid-vaccine.html,TUKWILA,Tukwila,WA,400 COSTCO DR STE 150,98188,Costco
+68,-122.1045348,47.6705363,https://www.fredmeyer.com/rx/covid-eligibility,Redmond,Fred Meyer - Redmond,WA,17667 Ne 76Th St,98052,Fred Meyer
+69,-122.309,47.156,https://www.costco.com/covid-vaccine.html,PUYALLUP,Puyallup,WA,1201 39TH AVE SW,98373,Costco
+70,-122.1184991,47.3563794,https://www.fredmeyer.com/rx/covid-eligibility,Covington,Fred Meyer - Covington,WA,16735 Se 272Nd St,98042,Fred Meyer
+71,-122.0188408,47.3638952,https://www.fredmeyer.com/rx/covid-eligibility,Maple Valley,Fred Meyer - Maple Valley,WA,26520 Maple Valley-Black Diamond Rd Se,98038,Fred Meyer
+72,-119.188261,46.272,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Pasco,Pasco Supercenter,WA,4820 N Road 68,99301,Walmart
+73,-122.338,48.454,https://www.costco.com/covid-vaccine.html,BURLINGTON,Burlington WA,WA,1725 S BURLINGTON BLVD,98233,Costco
+74,-122.276,47.834,https://www.costco.com/covid-vaccine.html,LYNNWOOD,Lynnwood,WA,18109 33RD AVE W,98037,Costco
+75,-120.282,47.402,https://www.costco.com/covid-vaccine.html,EAST WENATCHEE,Wenatchee,WA,375 HIGHLINE DR,98802,Costco
+76,-122.158,47.166,https://www.costco.com/covid-vaccine.html,BONNEY LAKE,Bonney Lake,WA,9801 204TH AVE E,98391,Costco
+77,-122.093,47.667,https://www.costco.com/covid-vaccine.html,REDMOND,Redmond,WA,7725 188TH AVE NE,98052,Costco
+78,-122.05,47.551,https://www.costco.com/covid-vaccine.html,ISSAQUAH,Issaquah,WA,1801 10TH AVE NW,98027,Costco
+79,-122.387278,47.560911,https://pharmaca.as.me/westseattle,Seattle,Seattle (West Seattle),WA,4707 California Avenue SW,98116,Pharmaca
+80,-122.473,45.622,https://www.costco.com/covid-vaccine.html,CAMAS,E Vancouver WA,WA,19610 SE 1ST ST,98607,Costco
+81,-122.515,48.791,https://www.costco.com/covid-vaccine.html,BELLINGHAM,Bellingham,WA,4125 ARCTIC AVE,98226,Costco
+82,-122.314,47.287,https://www.costco.com/covid-vaccine.html,FEDERAL WAY,Federal Way,WA,35100 ENCHANTED PKWY S,98003,Costco
+83,-122.604,45.684,https://www.costco.com/covid-vaccine.html,VANCOUVER,Vancouver WA,WA,6720 NE 84TH ST,98665,Costco
+84,-122.601,47.359,https://www.costco.com/covid-vaccine.html,GIG HARBOR,Gig Harbor,WA,10990 HARBOR HILL DR NW,98332,Costco
+85,-122.662799,45.686816,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Vancouver,Vancouver Store,WA,9000 Ne Highway 99,98665,Walmart
+86,-122.47981,45.61835,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Vancouver,Vancouver Supercenter,WA,430 Se 192nd Ave,98683,Walmart
+87,-122.3357,47.660904,https://pharmaca.as.me/wallingford,Seattle,Seattle (Wallingford),WA,1815 North 45th Street,98103,Pharmaca
+88,-122.128004,47.674822,https://pharmaca.as.me/redmond,Redmond,Redmond,WA,15840 Redmond Way,98052,Pharmaca
+89,-122.5015067,45.6058395,https://www.fredmeyer.com/rx/covid-eligibility,Vancouver,Fred Meyer - Fishers Landing,WA,16600 Se Mcgillivray Blvd,98683,Fred Meyer
+90,-122.3477418,47.7621166,https://www.fredmeyer.com/rx/covid-eligibility,Shoreline,Fred Meyer - Shoreline,WA,18325 Aurora Ave N,98133,Fred Meyer
+91,-122.2263041,47.3153441,https://www.fredmeyer.com/rx/covid-eligibility,Auburn,Fred Meyer - Auburn,WA,801 Auburn Way N,98002,Fred Meyer
+92,-121.972124,47.865754,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Monroe,Monroe Supercenter,WA,19191 N Kelsey St,98272,Walmart
+93,-122.348,47.6167,https://www.riteaid.com/pharmacy/covid-qualifier,Seattle,Rite Aid,WA,2603 Third Avenue,98121,Rite Aid
+94,-122.5456683,45.78166818,https://www.walgreens.com/findcare/vaccination/covid-19,BATTLE GROUND,Walgreen Drug Store,WA,808 W MAIN ST,98604,Walgreens
+95,-122.8238424,47.0368815,https://www.walgreens.com/findcare/vaccination/covid-19,LACEY,Walgreen Drug Store,WA,4540 LACEY BLVD SE,98503,Walgreens
+96,-122.6040429,47.35929971,https://www.walgreens.com/findcare/vaccination/covid-19,GIG HARBOR,Walgreen Drug Store,WA,4840 BORGEN BLVD NW,98332,Walgreens
+97,-122.1314802,47.5824812,https://www.kroger.com/rx/covid-eligibility,Bellevue,Covid-19 Testing - T-Mobile Bellevue,WA,3255 160th Ave SE,98008,Kroger COVID
+98,-122.172531,47.572888,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Bellevue,Bellevue Store,WA,12620 Se 41st Pl,98006,Walmart
+99,-117.1056648,47.67070192,https://www.walgreens.com/findcare/vaccination/covid-19,LIBERTY LAKE,Walgreen Drug Store,WA,1502 N LIBERTY LAKE RD,99019,Walgreens
+100,-117.2819193,47.68160591,https://www.walgreens.com/findcare/vaccination/covid-19,MILLWOOD,Walgreen Drug Store,WA,2702 N ARGONNE RD,99212,Walgreens
+101,-117.4051895,47.76967799,https://www.walgreens.com/findcare/vaccination/covid-19,SPOKANE,Walgreen Drug Store,WA,12315 HWY 395,99218,Walgreens
+102,-117.4122041,47.72975222,https://www.walgreens.com/findcare/vaccination/covid-19,SPOKANE,Walgreen Drug Store,WA,7905 N DIVISION ST,99208,Walgreens
+103,-117.4103935,47.6926444,https://www.walgreens.com/findcare/vaccination/covid-19,SPOKANE,Walgreen Drug Store,WA,12 E EMPIRE AVE,99207,Walgreens
+104,-117.402657,47.62836641,https://www.walgreens.com/findcare/vaccination/covid-19,SPOKANE,Walgreen Drug Store,WA,2830 S GRAND BLVD,99203,Walgreens
+105,-117.4375976,47.68048545,https://www.walgreens.com/findcare/vaccination/covid-19,SPOKANE,Walgreen Drug Store,WA,1708 W NORTHWEST BLVD,99205,Walgreens
+106,-117.3783683,47.70109303,https://www.walgreens.com/findcare/vaccination/covid-19,SPOKANE,Walgreen Drug Store,WA,2105 E WELLESLEY AVE,99207,Walgreens
+107,-117.239394,47.656643,https://www.walgreens.com/findcare/vaccination/covid-19,SPOKANE VALLEY,Walgreen Drug Store,WA,12312 E SPRAGUE AVE,99216,Walgreens
+108,-117.1960658,47.65604972,https://www.walgreens.com/findcare/vaccination/covid-19,SPOKANE VALLEY,Walgreen Drug Store,WA,15510 E SPRAGUE AVE,99037,Walgreens
+109,-117.4257884,47.65166707,https://www.walgreens.com/findcare/vaccination/covid-19,SPOKANE,Walgreens Pharmacy at Deaconnes Hospital,WA,910 W 5TH AVE,99204,Walgreens
+110,-117.4176225,47.65333432,https://www.walgreens.com/findcare/vaccination/covid-19,SPOKANE,Community Pharmacy,WA,327 W 3RD AVE,99201,Walgreens
+111,-122.3705841,45.58435509,https://www.walgreens.com/findcare/vaccination/covid-19,CAMAS,Walgreen Drug Store,WA,3328 NE 3RD AVE,98607,Walgreens
+112,-122.6117064,48.50815618,https://www.walgreens.com/findcare/vaccination/covid-19,ANACORTES,Walgreen Drug Store,WA,909 17TH ST,98221,Walgreens
+113,-122.4602827,48.77168595,https://www.walgreens.com/findcare/vaccination/covid-19,BELLINGHAM,Walgreen Drug Store,WA,1070 E SUNSET DR,98226,Walgreens
+114,-122.4853385,48.78928761,https://www.walgreens.com/findcare/vaccination/covid-19,BELLINGHAM,Walgreen Drug Store,WA,4090 MERIDIAN ST,98226,Walgreens
+115,-122.4696004,48.73455144,https://www.walgreens.com/findcare/vaccination/covid-19,BELLINGHAM,Walgreen Drug Store,WA,125 S SAMISH WAY,98225,Walgreens
+116,-122.3363221,48.47136277,https://www.walgreens.com/findcare/vaccination/covid-19,BURLINGTON,Walgreen Drug Store,WA,623 S BURLINGTON BLVD,98233,Walgreens
+117,-122.5841617,48.84420995,https://www.walgreens.com/findcare/vaccination/covid-19,FERNDALE,Walgreen Drug Store,WA,1901 MAIN ST,98248,Walgreens
+118,-122.2445789,48.50665232,https://www.walgreens.com/findcare/vaccination/covid-19,SEDRO WOOLLEY,Walgreen Drug Store,WA,320 HARRISON ST,98284,Walgreens
+119,-122.208373,47.80830517,https://www.walgreens.com/findcare/vaccination/covid-19,BOTHELL,Walgreen Drug Store,WA,20812 BOTHELL EVERETT HWY,98021,Walgreens
+120,-122.2009232,47.98804711,https://www.walgreens.com/findcare/vaccination/covid-19,EVERETT,Walgreen Drug Store,WA,2205 BROADWAY,98201,Walgreens
+121,-122.2074291,47.87896172,https://www.walgreens.com/findcare/vaccination/covid-19,EVERETT,Walgreen Drug Store,WA,13110 BOTHELL EVERETT HWY,98208,Walgreens
+122,-122.2397772,47.89614202,https://www.walgreens.com/findcare/vaccination/covid-19,EVERETT,Walgreen Drug Store,WA,11216 4TH AVE W,98204,Walgreens
+123,-122.218437,47.93567984,https://www.walgreens.com/findcare/vaccination/covid-19,EVERETT,Walgreen Drug Store,WA,6807 EVERGREEN WAY,98203,Walgreens
+124,-122.1085865,48.00261957,https://www.walgreens.com/findcare/vaccination/covid-19,LAKE STEVENS,Walgreen Drug Store,WA,718 91ST AVE NE,98258,Walgreens
+125,-122.323099,47.810699,https://www.walgreens.com/findcare/vaccination/covid-19,LYNNWOOD,Walgreen Drug Store,WA,20725 HIGHWAY 99,98036,Walgreens
+126,-122.2462322,47.84894581,https://www.walgreens.com/findcare/vaccination/covid-19,LYNNWOOD,Walgreen Drug Store,WA,16423 LARCH WAY,98037,Walgreens
+127,-122.1761675,48.05210187,https://www.walgreens.com/findcare/vaccination/covid-19,MARYSVILLE,Walgreen Drug Store,WA,404 STATE AVE,98270,Walgreens
+128,-122.294043,47.90566158,https://www.walgreens.com/findcare/vaccination/covid-19,MUKILTEO,Walgreen Drug Store,WA,10200 MUKILTEO SPEEDWAY,98275,Walgreens
+129,-122.5143511,47.63654201,https://www.walgreens.com/findcare/vaccination/covid-19,BAINBRIDGE ISLAND,Walgreen Drug Store,WA,1315 WINTERGREEN LANE NE,98110,Walgreens
+130,-122.3647413,47.79107238,https://www.walgreens.com/findcare/vaccination/covid-19,EDMONDS,Walgreen Drug Store,WA,9797 EDMONDS WAY,98020,Walgreens
+131,-122.3761161,47.69075265,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,8500 15TH AVE NW,98117,Walgreens
+132,-122.3448044,47.73477701,https://www.walgreens.com/findcare/vaccination/covid-19,SHORELINE,Walgreen Drug Store,WA,14510 AURORA AVE N,98133,Walgreens
+133,-122.3453367,47.75674727,https://www.walgreens.com/findcare/vaccination/covid-19,SHORELINE,Walgreen Drug Store,WA,17524 AURORA AVE N,98133,Walgreens
+134,-122.6946491,47.65111153,https://www.walgreens.com/findcare/vaccination/covid-19,SILVERDALE,Walgreen Drug Store,WA,9709 SILVERDALE WAY NW,98383,Walgreens
+135,-122.6574407,48.28796506,https://www.walgreens.com/findcare/vaccination/covid-19,OAK HARBOR,Walgreen Drug Store,WA,31490 STATE ROUTE 20,98277,Walgreens
+136,-123.4167738,48.1130809,https://www.walgreens.com/findcare/vaccination/covid-19,PORT ANGELES,Walgreen Drug Store,WA,932 E FRONT ST,98362,Walgreens
+137,-123.1125914,48.08004962,https://www.walgreens.com/findcare/vaccination/covid-19,SEQUIM,Walgreen Drug Store,WA,490 W WASHINGTON ST,98382,Walgreens
+138,-122.2200636,47.32081159,https://www.walgreens.com/findcare/vaccination/covid-19,AUBURN,Walgreen Drug Store,WA,1416 HARVEY RD NE,98002,Walgreens
+139,-122.208358,47.2451238,https://www.walgreens.com/findcare/vaccination/covid-19,AUBURN,Walgreen Drug Store,WA,1502 LAKE TAPPS PKWY SE,98092,Walgreens
+140,-122.2126305,47.29326527,https://www.walgreens.com/findcare/vaccination/covid-19,AUBURN,Walgreen Drug Store,WA,1701 AUBURN WAY S,98002,Walgreens
+141,-122.1120713,47.3587744,https://www.walgreens.com/findcare/vaccination/covid-19,COVINGTON,Walgreen Drug Store,WA,27130 172ND AVE SE,98042,Walgreens
+142,-121.988444,47.20020584,https://www.walgreens.com/findcare/vaccination/covid-19,ENUMCLAW,Walgreen Drug Store,WA,1350 GARRETT ST,98022,Walgreens
+143,-122.1647662,47.35866635,https://www.walgreens.com/findcare/vaccination/covid-19,KENT,Walgreen Drug Store,WA,27112 132ND AVE SE,98042,Walgreens
+144,-122.1541664,47.61678086,https://www.walgreens.com/findcare/vaccination/covid-19,BELLEVUE,Walgreen Drug Store,WA,647 140TH AVE NE,98005,Walgreens
+145,-122.1328733,47.63072117,https://www.walgreens.com/findcare/vaccination/covid-19,BELLEVUE,Walgreen Drug Store,WA,15585 NE 24TH ST,98007,Walgreens
+146,-122.187098,47.62107754,https://www.walgreens.com/findcare/vaccination/covid-19,BELLEVUE,Walgreens Pharmacy at Overlake Hospital Medical,WA,1135 116TH AVE NE,98004,Walgreens
+147,-122.0372862,47.54520404,https://www.walgreens.com/findcare/vaccination/covid-19,ISSAQUAH,Walgreen Drug Store,WA,6300 E LAKE SAMMAMISH PKWY SE,98029,Walgreens
+148,-122.173499,47.678999,https://www.walgreens.com/findcare/vaccination/covid-19,KIRKLAND,Walgreen Drug Store,WA,12405 NE 85TH ST,98033,Walgreens
+149,-122.2110416,47.7048541,https://www.walgreens.com/findcare/vaccination/covid-19,KIRKLAND,Walgreen Drug Store,WA,11607 98TH AVE NE,98034,Walgreens
+150,-122.2960986,47.84578973,https://www.walgreens.com/findcare/vaccination/covid-19,LYNNWOOD,Walgreen Drug Store,WA,16824 HIGHWAY 99,98037,Walgreens
+151,-122.0216659,47.36217514,https://www.walgreens.com/findcare/vaccination/covid-19,MAPLE VALLEY,Walgreen Drug Store,WA,26705 MAPLE VALLEY BLACK DIAMOND RD SE,98038,Walgreens
+152,-122.2344423,47.5861927,https://www.walgreens.com/findcare/vaccination/covid-19,MERCER ISLAND,Walgreen Drug Store,WA,7707 SE 27TH ST,98040,Walgreens
+153,-122.2179307,47.48015298,https://www.walgreens.com/findcare/vaccination/covid-19,RENTON,Walgreen Drug Store,WA,275 RAINIER AVE S,98057,Walgreens
+154,-122.1769101,47.50262422,https://www.walgreens.com/findcare/vaccination/covid-19,RENTON,Walgreen Drug Store,WA,3011 NE SUNSET BLVD,98056,Walgreens
+155,-122.1635549,47.48832612,https://www.walgreens.com/findcare/vaccination/covid-19,RENTON,Walgreen Drug Store,WA,4105 NE 4TH ST,98059,Walgreens
+156,-122.287467,47.56365124,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,4412 RAINIER AVE S,98118,Walgreens
+157,-122.2920753,47.73353658,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,14352 LAKE CITY WAY NE,98125,Walgreens
+158,-122.318247,47.70824188,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,859 NE NORTHGATE WAY,98125,Walgreens
+159,-122.0797176,47.75533569,https://www.walgreens.com/findcare/vaccination/covid-19,WOODINVILLE,Walgreen Drug Store,WA,17520 AVONDALE RD NE,98077,Walgreens
+160,-117.0436747,46.41946097,https://www.walgreens.com/findcare/vaccination/covid-19,CLARKSTON,Walgreen Drug Store,WA,425 BRIDGE ST,99403,Walgreens
+161,-120.2828714,47.40572268,https://www.walgreens.com/findcare/vaccination/covid-19,EAST WENATCHEE,Walgreen Drug Store,WA,470 GRANT RD,98802,Walgreens
+162,-119.2774088,47.13223329,https://www.walgreens.com/findcare/vaccination/covid-19,MOSES LAKE,Walgreen Drug Store,WA,200 E BROADWAY AVE,98837,Walgreens
+163,-120.3255428,47.43643584,https://www.walgreens.com/findcare/vaccination/covid-19,WENATCHEE,Walgreen Drug Store,WA,1050 N MILLER ST,98801,Walgreens
+164,-119.174543,46.18500158,https://www.walgreens.com/findcare/vaccination/covid-19,KENNEWICK,Walgreen Drug Store,WA,4000 W 27TH AVE,99337,Walgreens
+165,-119.1595648,46.21264729,https://www.walgreens.com/findcare/vaccination/covid-19,KENNEWICK,Walgreen Drug Store,WA,2800 W CLEARWATER AVE,99336,Walgreens
+166,-119.1871036,46.27737183,https://www.walgreens.com/findcare/vaccination/covid-19,PASCO,Walgreen Drug Store,WA,5506 N ROAD 68,99301,Walgreens
+167,-119.1178757,46.24196741,https://www.walgreens.com/findcare/vaccination/covid-19,PASCO,Walgreen Drug Store,WA,2005 W COURT ST,99301,Walgreens
+168,-119.2654113,46.22669579,https://www.walgreens.com/findcare/vaccination/covid-19,RICHLAND,Walgreen Drug Store,WA,585 GAGE BLVD,99352,Walgreens
+169,-119.2751371,46.29468059,https://www.walgreens.com/findcare/vaccination/covid-19,RICHLAND,Walgreen Drug Store,WA,1601 GEORGE WASHINGTON WAY,99354,Walgreens
+170,-118.3454646,46.04901909,https://www.walgreens.com/findcare/vaccination/covid-19,WALLA WALLA,Walgreen Drug Store,WA,633 W TIETAN ST,99362,Walgreens
+171,-122.2953962,47.39509874,https://www.walgreens.com/findcare/vaccination/covid-19,DES MOINES,Walgreen Drug Store,WA,23003 PACIFIC HWY S,98198,Walgreens
+172,-122.3020526,47.34299327,https://www.walgreens.com/findcare/vaccination/covid-19,FEDERAL WAY,Walgreen Drug Store,WA,28817 MILITARY RD S,98003,Walgreens
+173,-122.2034638,47.37212723,https://www.walgreens.com/findcare/vaccination/covid-19,KENT,Walgreen Drug Store,WA,25605 104TH AVE SE,98030,Walgreens
+174,-122.3382062,47.6098146,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,222 PIKE ST,98101,Walgreens
+175,-122.3216274,47.60859162,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreens Pharmacy at First Hill,WA,747 BROADWAY AVE,98122,Walgreens
+176,-122.3123689,47.62356123,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,500 15TH AVE E,98112,Walgreens
+177,-122.3210051,47.61507997,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,1531 BROADWAY,98122,Walgreens
+178,-122.3768668,47.66832017,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,5409 15TH AVE NW,98107,Walgreens
+179,-122.3010395,47.59943115,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,2400 S JACKSON ST,98144,Walgreens
+180,-122.3546089,47.5178271,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,9456 16TH AVE SW,98106,Walgreens
+181,-122.319282,47.61329291,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Community Pharmacy,WA,1409 11TH AVE,98122,Community (Walgreens)
+182,-122.3454097,47.61877301,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,566 DENNY WAY,98109,Walgreens
+183,-122.3760593,47.54548613,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,6330 35TH AVE SW,98126,Walgreens
+184,-122.3418812,47.661241,https://www.walgreens.com/findcare/vaccination/covid-19,SEATTLE,Walgreen Drug Store,WA,4468 STONE WAY N,98103,Walgreens
+185,-122.2859852,47.47443808,https://www.walgreens.com/findcare/vaccination/covid-19,TUKWILA,Walgreen Drug Store,WA,3716 S 144TH ST,98168,Walgreens
+186,-120.5623814,46.60048718,https://www.walgreens.com/findcare/vaccination/covid-19,YAKIMA,Walgreen Drug Store,WA,4001 SUMMITVIEW AVE,98908,Walgreens
+187,-120.5944494,46.5850516,https://www.walgreens.com/findcare/vaccination/covid-19,YAKIMA,Walgreen Drug Store,WA,6400 W NOB HILL BLVD,98908,Walgreens
+188,-120.5177879,46.59928385,https://www.walgreens.com/findcare/vaccination/covid-19,YAKIMA,Walgreen Drug Store,WA,610 W YAKIMA AVE,98902,Walgreens
+189,-122.2929054,47.25044499,https://www.walgreens.com/findcare/vaccination/covid-19,EDGEWOOD,Walgreen Drug Store,WA,729 MERIDIAN AVE E,98371,Walgreens
+190,-122.3815463,47.29686753,https://www.walgreens.com/findcare/vaccination/covid-19,FEDERAL WAY,Walgreen Drug Store,WA,34008 HOYT RD SW,98023,Walgreens
+191,-122.2954905,47.05339664,https://www.walgreens.com/findcare/vaccination/covid-19,GRAHAM,Walgreen Drug Store,WA,22320 MERIDIAN AVE E,98338,Walgreens
+192,-122.5470817,47.17946476,https://www.walgreens.com/findcare/vaccination/covid-19,LAKEWOOD,Walgreen Drug Store,WA,8224 STEILACOOM BLVD SW,98498,Walgreens
+193,-122.5176655,47.1716274,https://www.walgreens.com/findcare/vaccination/covid-19,LAKEWOOD,Walgreen Drug Store,WA,9505 BRIDGEPORT WAY SW,98499,Walgreens
+194,-122.2938021,47.12619901,https://www.walgreens.com/findcare/vaccination/covid-19,PUYALLUP,Walgreen Drug Store,WA,14308 MERIDIAN E,98373,Walgreens
+195,-122.2935054,47.15018467,https://www.walgreens.com/findcare/vaccination/covid-19,PUYALLUP,Walgreen Drug Store,WA,4404 S MERIDIAN,98373,Walgreens
+196,-122.3565601,47.15117121,https://www.walgreens.com/findcare/vaccination/covid-19,PUYALLUP,Walgreen Drug Store,WA,11509 CANYON RD E,98373,Walgreens
+197,-122.2925572,47.09767711,https://www.walgreens.com/findcare/vaccination/covid-19,PUYALLUP,Walgreen Drug Store,WA,10302 SUNRISE BLVD E,98374,Walgreens
+198,-122.4334894,47.18031177,https://www.walgreens.com/findcare/vaccination/covid-19,TACOMA,Walgreen Drug Store,WA,8405 PACIFIC AVE,98444,Walgreens
+199,-122.4333578,47.22348943,https://www.walgreens.com/findcare/vaccination/covid-19,TACOMA,Walgreen Drug Store,WA,3737 PACIFIC AVE,98418,Walgreens
+200,-122.4342982,47.20590038,https://www.walgreens.com/findcare/vaccination/covid-19,TACOMA,Walgreen Drug Store,WA,5602 PACIFIC AVE,98408,Walgreens
+201,-122.4336826,47.14714192,https://www.walgreens.com/findcare/vaccination/covid-19,TACOMA,Walgreen Drug Store,WA,12105 PACIFIC AVE S,98444,Walgreens
+202,-122.4341566,47.11847215,https://www.walgreens.com/findcare/vaccination/covid-19,TACOMA,Walgreen Drug Store,WA,15225 PACIFIC AVE S,98444,Walgreens
+203,-122.4469041,47.26442722,https://www.walgreens.com/findcare/vaccination/covid-19,TACOMA,Community Pharmacy,WA,1 TACOMA AVE N,98403,Community (Walgreens)
+204,-123.8210602,46.9718171,https://www.safeway.com/pharmacy/covid-19.html,Aberdeen,Safeway 1546,WA,221 W Heron,98520,Safeway
+205,-122.6137698,48.5123932,https://www.safeway.com/pharmacy/covid-19.html,Anacortes,Safeway 0593,WA,911 11th St,98221,Safeway
+206,-122.1296112,48.1822973,https://www.safeway.com/pharmacy/covid-19.html,Arlington,Safeway 1522,WA,20500 Olympic Place,98223,Safeway
+207,-122.1821335,48.1516528,https://www.safeway.com/pharmacy/covid-19.html,Arlington,Safeway 0534 Safeway,WA,3532 172nd St,98223,Safeway
+208,-122.2117922,47.2429989,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Auburn,Haggen 3438,WA,1406 Lake Tapps Pkwy SE,98092,Haggen
+209,-122.2297055,47.30638,https://www.safeway.com/pharmacy/covid-19.html,Auburn,Safeway 0531,WA,101 Auburn Way S,98002,Safeway
+210,-122.5218933,47.6350962,https://www.safeway.com/pharmacy/covid-19.html,Bainbridge Island,Safeway 1252,WA,253 High School Rd N E,98110,Safeway
+211,-122.5489462,45.7817691,https://www.safeway.com/pharmacy/covid-19.html,Battle Ground,Safeway 4313,WA,904 West Main Street,98604,Safeway
+212,-122.5623548,45.7817854,https://www.albertsons.com/pharmacy/covid-19.html,Battle Ground,Albertsons 2592,WA,2108 W Main Street,98604,Albertsons
+213,-122.8259895,47.4536753,https://www.safeway.com/pharmacy/covid-19.html,Belfair,Safeway 1571,WA,23961 N.e. State Route 3,98528,Safeway
+214,-122.2032037,47.6129984,https://www.safeway.com/pharmacy/covid-19.html,Bellevue,Safeway 1600,WA,300 Bellevue Way Ne,98004,Safeway
+215,-122.1568607,47.6256102,https://www.safeway.com/pharmacy/covid-19.html,Bellevue,Safeway 0490,WA,1645 140th N E,98005,Safeway
+216,-122.4467819,48.7691442,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Bellingham,Haggen 3460,WA,2900 Woburn St,98226,Haggen
+217,-122.4607394,48.7745032,https://www.safeway.com/pharmacy/covid-19.html,Bellingham,Safeway 3285,WA,1275 E Sunset Dr,98226,Safeway
+218,-122.5036017,48.7190278,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Bellingham,Haggen 3439,WA,1401 12th St,98225,Haggen
+219,-122.4865651,48.7677659,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Bellingham,Haggen 3430,WA,2814 Meridian St,98225,Haggen
+220,-122.1485797,47.1667113,https://www.safeway.com/pharmacy/covid-19.html,Bonney Lake,Safeway 0544,WA,21301 Hwy 410,98391,Safeway
+221,-122.2076346,47.809921,https://www.safeway.com/pharmacy/covid-19.html,Bothell,Safeway 0535,WA,20711 Bothell Hwy,98012,Safeway
+222,-122.2230045,47.7787443,https://www.safeway.com/pharmacy/covid-19.html,Bothell,Safeway 1864,WA,24040 Bothell-everett Hwy,98021,Safeway
+223,-122.1894068,47.8766604,https://www.albertsons.com/pharmacy/covid-19.html,Bothell,Albertsons 1413,WA,3322 132nd St S.E.,98012,Albertsons
+224,-122.654956,47.5697604,https://www.safeway.com/pharmacy/covid-19.html,Bremerton,Safeway 1467,WA,900 N Callow,98312,Safeway
+225,-122.6330145,47.6207543,https://www.safeway.com/pharmacy/covid-19.html,Bremerton,Safeway 1524,WA,1401 N.e. Mcwilliams,98311,Safeway
+226,-122.3391446,47.4713011,https://www.safeway.com/pharmacy/covid-19.html,Burien,Safeway 1664,WA,138 Sw 148th St,98166,Safeway
+227,-122.3379583,47.4890506,https://www.safeway.com/pharmacy/covid-19.html,BURIEN,Safeway 3120,WA,12725 1ST AVE SOUTH,98168,Safeway
+228,-122.341004,48.4692798,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Burlington,Haggen 3436,WA,757 Haggen Dr,98233,Haggen
+229,-122.4016753,45.5869683,https://www.safeway.com/pharmacy/covid-19.html,Camas,Safeway 1287,WA,800 N.e. Third,98607,Safeway
+230,-122.9832454,46.7276216,https://www.safeway.com/pharmacy/covid-19.html,Centralia,Safeway 1495,WA,1129 Harrison,98531,Safeway
+231,-122.9562639,46.6551233,https://www.safeway.com/pharmacy/covid-19.html,Chehalis,Safeway 3525,WA,1100 S. Market Blvd.,98532,Safeway
+232,-120.0215862,47.8418034,https://www.safeway.com/pharmacy/covid-19.html,Chelan,Safeway 3265 Safeway,WA,106 West Manson Road,98816,Safeway
+233,-117.5696309,47.5058714,https://www.safeway.com/pharmacy/covid-19.html,Cheney,Safeway 1740,WA,2710 1st Street,99004,Safeway
+234,-117.0451911,46.421235,https://www.albertsons.com/pharmacy/covid-19.html,Clarkston,Albertsons 0241,WA,400 Bridge Street,99403,Albertsons
+235,-120.9557363,47.195656,https://www.safeway.com/pharmacy/covid-19.html,Cle Elum,Safeway 1135,WA,804 West First,98922,Safeway
+236,-117.9087117,48.5477321,https://www.safeway.com/pharmacy/covid-19.html,Colville,Safeway 0385,WA,391 N. Main St,99114,Safeway
+237,-122.1170338,47.3565839,https://www.safeway.com/pharmacy/covid-19.html,Covington,Safeway 0792,WA,17023 Se 272nd_st,98042,Safeway
+238,-122.3016876,47.4100194,https://www.safeway.com/pharmacy/covid-19.html,Des Moines,Safeway 3540,WA,21401 Pacific Hwy S,98198,Safeway
+239,-121.9870063,47.7263395,https://www.safeway.com/pharmacy/covid-19.html,Duvall,Safeway 1572,WA,14020 Main Street Ne,98019,Safeway
+240,-120.2830099,47.405034,https://www.safeway.com/pharmacy/covid-19.html,East Wenatchee,Safeway 3521,WA,510 Grant Rd,98802,Safeway
+241,-122.3468645,47.7845464,https://www.safeway.com/pharmacy/covid-19.html,Edmonds,Safeway 1297,WA,23632 Hwy 99,98026,Safeway
+242,-120.5451837,46.9960717,https://www.safeway.com/pharmacy/covid-19.html,Ellensburg,Safeway 1630,WA,400 North Ruby St.,98926,Safeway
+243,-121.9821396,47.1981734,https://www.safeway.com/pharmacy/covid-19.html,Enumclaw,Safeway 0494,WA,152 Roosevelt Ave E,98022,Safeway
+244,-119.5604959,47.3099109,https://www.safeway.com/pharmacy/covid-19.html,Ephrata,Safeway 1544,WA,1150 Basin St S.w.,98823,Safeway
+245,-122.2428016,47.8808004,https://www.albertsons.com/pharmacy/covid-19.html,Everett,Albertsons 1461,WA,520 128th St. S.W.,98204,Albertsons
+246,-122.2212026,47.9289966,https://www.safeway.com/pharmacy/covid-19.html,Everett,Safeway 3298,WA,7601 Evergreen Way,98203,Safeway
+247,-122.2072995,47.8973511,https://www.safeway.com/pharmacy/covid-19.html,Everett,Safeway 0503 Safeway,WA,11031 19th Ave S E,98208,Safeway
+248,-122.2024366,47.9941025,https://www.safeway.com/pharmacy/covid-19.html,Everett,Safeway 0474,WA,1715 Broadway,98201,Safeway
+249,-122.1557974,47.8754653,https://www.safeway.com/pharmacy/covid-19.html,Everett,Safeway 2645,WA,5802 134th Place Se,98208,Safeway
+250,-122.2145304,47.9623992,https://www.safeway.com/pharmacy/covid-19.html,Everett,Safeway 1484,WA,4128 Rucker Avenue,98203,Safeway
+251,-122.3200526,47.3138225,https://www.safeway.com/pharmacy/covid-19.html,Federal Way,Safeway 1555,WA,1207 S 320th,98003,Safeway
+252,-122.5828033,48.8429963,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Ferndale,Haggen 3493,WA,1815 Main St,98248,Haggen
+253,-122.606829,47.3609443,https://www.albertsons.com/pharmacy/covid-19.html,Gig Harbor,Albertsons 4406,WA,11330 N W 51st Ave,98332,Albertsons
+254,-122.5780053,47.3021339,https://www.safeway.com/pharmacy/covid-19.html,Gig Harbor,Safeway 3321,WA,4831 Point Fosdick Dr Nw,98335,Safeway
+255,-122.2982738,47.0540056,https://www.safeway.com/pharmacy/covid-19.html,Graham,Safeway 0547 Safeway,WA,10105 224th St E,98338,Safeway
+256,-119.0075887,47.9416017,https://www.safeway.com/pharmacy/covid-19.html,Grand Coulee,Safeway 3247,WA,320 Midway Ave.,99133,Safeway
+257,-119.8949152,46.2554866,https://www.safeway.com/pharmacy/covid-19.html,Grandview,Safeway 1593,WA,610 E. Wine Country Road,98930,Safeway
+258,-122.670574,45.6817496,https://www.safeway.com/pharmacy/covid-19.html,Hazel Dell,Safeway 4405,WA,408 N.e. 81st,98665,Safeway
+259,-122.0507705,47.5415358,https://www.safeway.com/pharmacy/covid-19.html,Issaquah,Safeway 1624,WA,735 N W Gilman Blvd,98027,Safeway
+260,-122.017203,47.543932,https://www.safeway.com/pharmacy/covid-19.html,Issaquah,Safeway 3006,WA,1451 Highlands Dr Ne,98029,Safeway
+261,-122.9030374,46.1414287,https://www.safeway.com/pharmacy/covid-19.html,Kelso,Safeway 2637,WA,411 Three Rivers Drive,98626,Safeway
+262,-122.2496633,47.7588674,https://www.safeway.com/pharmacy/covid-19.html,Kenmore,Safeway 3500,WA,6850 N E Bothell Way,98028,Safeway
+263,-119.1949343,46.2139253,https://www.albertsons.com/pharmacy/covid-19.html,Kennewick,Albertsons 3253,WA,5204 West Clearwater,99336,Albertsons
+264,-119.1633784,46.2086528,https://www.safeway.com/pharmacy/covid-19.html,Kennewick,Safeway 0335,WA,2825 W Kennewick Avenue,99336,Safeway
+265,-122.1976341,47.4151099,https://www.safeway.com/pharmacy/covid-19.html,Kent,Safeway 0459,WA,20830 108th S E,98031,Safeway
+266,-122.2486084,47.3806742,https://www.safeway.com/pharmacy/covid-19.html,Kent,Safeway 1294,WA,210 Washington Ave S,98032,Safeway
+267,-122.1690665,47.356628,https://www.safeway.com/pharmacy/covid-19.html,Kent,Safeway 1966,WA,13101 Se Kent-kangley Road,98030,Safeway
+268,-122.4981528,47.7957318,https://www.albertsons.com/pharmacy/covid-19.html,Kingston,Albertsons 0186,WA,8196 SR 104,98346,Albertsons
+269,-122.1763579,47.7323717,https://www.safeway.com/pharmacy/covid-19.html,Kirkland,Safeway 0526 Safeway,WA,14444 124th Ave N E,98034,Safeway
+270,-122.2083816,47.7231249,https://www.safeway.com/pharmacy/covid-19.html,Kirkland,Safeway 2734,WA,10020 Ne 137th Street,98034,Safeway
+271,-122.1756246,47.678792,https://www.safeway.com/pharmacy/covid-19.html,Kirkland,Safeway 1142,WA,12519 N E 85th St,98033,Safeway
+272,-122.8244029,46.9978826,https://www.safeway.com/pharmacy/covid-19.html,Lacey,Safeway 0543 Safeway,WA,4700 Yelm Rd S E,98503,Safeway
+273,-122.8020041,47.0392623,https://www.safeway.com/pharmacy/covid-19.html,Lacey,Safeway 1977,WA,6200 Pacific Avenue Se,98503,Safeway
+274,-122.1128569,47.9990157,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Lake Stevens,Haggen 3600,WA,8915 Market Place NE,98258,Haggen
+275,-122.1056844,48.0037612,https://www.safeway.com/pharmacy/covid-19.html,Lake Stevens,SAFEWAY 1803,WA,717 State Route 9 NE,98258,Safeway
+276,-122.5214369,47.1643053,https://www.safeway.com/pharmacy/covid-19.html,Lakewood,Safeway 1645,WA,10223 Gravelly Lake Dr. S.w.,98499,Safeway
+277,-120.6479591,47.5969279,https://www.safeway.com/pharmacy/covid-19.html,Leavenworth,Safeway 1589,WA,116 Riverbend Dr.,98826,Safeway
+278,-117.105718,47.6694467,https://www.albertsons.com/pharmacy/covid-19.html,Liberty Lake,Albertsons 2248,WA,1304 N. Liberty Lake Rd.,99019,Albertsons
+279,-122.9632776,46.1483234,https://www.safeway.com/pharmacy/covid-19.html,Longview,Safeway 1078,WA,2930 Ocean Beach Highway,98632,Safeway
+280,-122.9406275,46.1366741,https://www.safeway.com/pharmacy/covid-19.html,Longview,Safeway 0091,WA,1227 15th Avenue,98632,Safeway
+281,-122.4894973,48.9343255,https://www.safeway.com/pharmacy/covid-19.html,Lynden,Safeway 1930,WA,8071 Guide Meridian Road #101,98264,Safeway
+282,-122.2832192,47.8810777,https://www.albertsons.com/pharmacy/covid-19.html,Lynnwood,Albertsons 0469,WA,12811 Beverly Park Rd.,98087,Albertsons
+283,-122.3189622,47.8224691,https://www.safeway.com/pharmacy/covid-19.html,Lynnwood,Safeway 0485,WA,19500 Highway 99,98036,Safeway
+284,-122.2858417,47.8636543,https://www.safeway.com/pharmacy/covid-19.html,Lynnwood,Safeway 3523,WA,14826 Highway 99,98087,Safeway
+285,-122.0471782,47.3949913,https://www.safeway.com/pharmacy/covid-19.html,Maple Valley,Safeway 1471,WA,26916 Maple Valley Rd.,98038,Safeway
+286,-122.1814822,48.0507918,https://www.albertsons.com/pharmacy/covid-19.html,Marysville,Albertsons 0471,WA,301 Marysville Mall #60,98270,Albertsons
+287,-122.1826125,48.0768906,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Marysville,Haggen 3604,WA,3711 88th Street NE,98270,Haggen
+288,-122.1767704,48.0626036,https://www.safeway.com/pharmacy/covid-19.html,Marysville,Safeway 1485,WA,1258 State Street,98270,Safeway
+289,-122.2980868,47.2489006,https://www.safeway.com/pharmacy/covid-19.html,Milton,Safeway 3545,WA,900 E Meridian Suite 12,98354,Safeway
+290,-121.9698304,47.8600292,https://www.safeway.com/pharmacy/covid-19.html,Monroe,Safeway 0537 Safeway,WA,19651 Hwy 2,98272,Safeway
+291,-119.2705242,47.1299467,https://www.safeway.com/pharmacy/covid-19.html,Moses Lake,Safeway 3252 Safeway,WA,601 South Pioneer Way Suite-a,98837,Safeway
+292,-122.2928595,47.8079054,https://www.albertsons.com/pharmacy/covid-19.html,Mountlake Terrace,Albertsons 0414,WA,4301 212th Street S W,98043,Albertsons
+293,-122.3099363,48.4222267,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Mount Vernon,Haggen 3450,WA,2601 E Division St,98274,Haggen
+294,-122.3393333,48.4376937,https://www.safeway.com/pharmacy/covid-19.html,Mt Vernon,Safeway 1472,WA,315 East College,98273,Safeway
+295,-122.1699222,47.5394702,https://www.safeway.com/pharmacy/covid-19.html,Newcastle,Safeway 0558,WA,6911 Coal Creek Parkway_s E,98059,Safeway
+296,-117.0426461,48.1833246,https://www.safeway.com/pharmacy/covid-19.html,Newport,Safeway 1159,WA,121 W Walnut,99156,Safeway
+297,-121.7935869,47.4872634,https://www.safeway.com/pharmacy/covid-19.html,No. Bend,Safeway 1528,WA,460 S. W. Mt. Si Blvd.,98045,Safeway
+298,-122.6635883,48.2864147,https://www.safeway.com/pharmacy/covid-19.html,Oak Harbor,Safeway 0402,WA,1450 SW Erie St,98277,Safeway
+299,-122.8481106,47.0429509,https://www.albertsons.com/pharmacy/covid-19.html,Olympia,Albertsons 3417,WA,3520 Pacific Ave SE,98501,Albertsons
+300,-122.7685702,47.0591767,https://www.safeway.com/pharmacy/covid-19.html,Olympia,Safeway 1173,WA,1243 Marvin Rd N E,98516,Safeway
+301,-122.9432291,47.034113,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Olympia,Haggen 3444,WA,1313 Cooper Point Rd SW,98502,Haggen
+302,-122.8313363,47.0495224,https://www.safeway.com/pharmacy/covid-19.html,Olympia,Safeway 1952,WA,4280 Martin Way E.,98516,Safeway
+303,-122.9442578,47.0460864,https://www.safeway.com/pharmacy/covid-19.html,Olympia,Safeway 1464,WA,3215 Harrison Ave. N.w.,98502,Safeway
+304,-122.2116083,47.0978118,https://www.safeway.com/pharmacy/covid-19.html,Orting,Safeway 1844,WA,301 Whitesell St. NW,98360,Safeway
+305,-123.4375437,48.115957,https://www.safeway.com/pharmacy/covid-19.html,Port Angeles,Safeway 1492,WA,110 East 3rd Street,98362,Safeway
+306,-123.3825136,48.1060213,https://www.safeway.com/pharmacy/covid-19.html,Port Angeles,Safeway 1922,WA,2709 E. Highway 101,98362,Safeway
+307,-122.6127144,47.5357473,https://www.albertsons.com/pharmacy/covid-19.html,Port Orchard,Albertsons 0475,WA,1434 Olney Ave. S. E.,98366,Albertsons
+308,-122.6543021,47.4960999,https://www.albertsons.com/pharmacy/covid-19.html,Port Orchard,Albertsons 0419,WA,370 S W Sedgwick Rd,98367,Albertsons
+309,-122.6323498,47.5183557,https://www.safeway.com/pharmacy/covid-19.html,Port Orchard,Safeway 3317,WA,3355 Bethel Rd. SE,98366,Safeway
+310,-122.7848877,48.1081301,https://www.safeway.com/pharmacy/covid-19.html,Port Townsend,Safeway 0538,WA,442 W Sims Way,98368,Safeway
+311,-122.6390886,47.7381916,https://www.safeway.com/pharmacy/covid-19.html,Poulsbo,Safeway 3148,WA,19245 10th Ave Ne,98370,Safeway
+312,-117.1801848,46.7155837,https://www.safeway.com/pharmacy/covid-19.html,Pullman,Safeway 2639,WA,430 Se Bishop Blvd.,99163,Safeway
+313,-122.3613726,47.1560693,https://www.albertsons.com/pharmacy/covid-19.html,Puyallup,Albertsons 3106,WA,11012 Canyon Rd. East,98373,Albertsons
+314,-122.2950361,47.1870135,https://www.safeway.com/pharmacy/covid-19.html,Puyallup,Safeway 0422,WA,611 S Meridian,98371,Safeway
+315,-122.3580298,47.1519926,https://www.safeway.com/pharmacy/covid-19.html,Puyallup,Safeway 1798,WA,11501 Canyon Road E.,98373,Safeway
+316,-122.2963802,47.1351434,https://www.safeway.com/pharmacy/covid-19.html,Puyallup,Safeway 2640,WA,13308 Meridian St E.,98373,Safeway
+317,-122.3551562,47.0951006,https://www.safeway.com/pharmacy/covid-19.html,Puyallup,Safeway 3228 Safeway,WA,5616 176th St. East,98375,Safeway
+318,-122.2591966,47.1848949,https://www.safeway.com/pharmacy/covid-19.html,Puyallup,Safeway 2729,WA,708 Shaw Rd,98372,Safeway
+319,-122.0288469,47.6454819,https://www.albertsons.com/pharmacy/covid-19.html,Redmond,Albertsons 3418,WA,3925 236Th Ave NE,98053,Albertsons
+320,-122.1633945,47.4894722,https://www.safeway.com/pharmacy/covid-19.html,Renton,Safeway 3319,WA,4300 NE 4th,98059,Safeway
+321,-122.2170465,47.4798242,https://www.safeway.com/pharmacy/covid-19.html,Renton,Safeway 1563,WA,200 S. 3rd St.,98057,Safeway
+322,-119.2696183,46.2280664,https://www.albertsons.com/pharmacy/covid-19.html,Richland,Albertsons 0252,WA,690 Gage Blvd,99352,Albertsons
+323,-119.2781116,46.2995541,https://www.safeway.com/pharmacy/covid-19.html,Richland,Safeway 0333,WA,1803 George Washington Way,99354,Safeway
+324,-122.0357728,47.6153939,https://www.safeway.com/pharmacy/covid-19.html,Sammamish,Safeway 0555 Safeway,WA,630 228th Ave N E,98074,Safeway
+325,-122.2845956,47.455652,https://www.safeway.com/pharmacy/covid-19.html,Sea-tac,Safeway 1493,WA,4011 S. 164th,98188,Safeway
+326,-122.2920209,47.5692285,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 1508,WA,3820 Rainier Ave S,98118,Safeway
+327,-122.3141534,47.7180957,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 1586,WA,12318 15th Avenue Ne,98125,Safeway
+328,-122.3154442,47.6204958,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 1551,WA,1410 E John Street,98112,Safeway
+329,-122.3599901,47.6235718,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 1885,WA,516 1st Ave West,98119,Safeway
+330,-122.3192075,47.6818565,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 1550,WA,7300 Roosevelt Way Ne,98115,Safeway
+331,-122.3764879,47.6682563,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 1477,WA,1423 Nw Market St.,98107,Safeway
+332,-122.3583225,47.6376421,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 0368,WA,2100 Queen Anne Avenue_n,98109,Safeway
+333,-122.2915278,47.6825128,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 0423,WA,7340 35th N E,98115,Safeway
+334,-122.3694447,47.5168043,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 1923,WA,9620 28th Avenue Sw,98126,Safeway
+335,-122.3881344,47.5799392,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 2932,WA,2622 California Ave Sw,98116,Safeway
+336,-122.378315,47.6896812,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 1143,WA,8340 15th Ave Nw,98117,Safeway
+337,-122.2972602,47.662116,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 0488,WA,3020 Northeast_45th St.,98105,Safeway
+338,-122.270873,47.5206254,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 1965,WA,9262 Rainier Ave. S.,98118,Safeway
+339,-122.3055533,47.6178326,https://www.safeway.com/pharmacy/covid-19.html,Seattle,Safeway 1993,WA,2201 E. Madison,98112,Safeway
+340,-123.1194503,48.0809825,https://www.safeway.com/pharmacy/covid-19.html,Sequim,Safeway 1448,WA,680f West Washington,98382,Safeway
+341,-123.1085995,47.2146302,https://www.safeway.com/pharmacy/covid-19.html,Shelton,Safeway 0585,WA,600 Franklin St,98584,Safeway
+342,-122.3150446,47.7543739,https://www.safeway.com/pharmacy/covid-19.html,Shoreline,Safeway 0497,WA,17202 15th Ave N E,98155,Safeway
+343,-122.3458227,47.7409021,https://www.safeway.com/pharmacy/covid-19.html,Shoreline,Safeway 3213,WA,15332 Aurora Ave N,98133,Safeway
+344,-122.1275145,47.8389424,https://www.albertsons.com/pharmacy/covid-19.html,Snohomish,Albertsons 3419,WA,17520 SR 9 Southeast,98296,Albertsons
+345,-122.0985854,47.9277274,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Snohomish,Haggen 3482,WA,1301 Avenue D,98290,Haggen
+346,-117.4268044,47.7161195,https://www.safeway.com/pharmacy/covid-19.html,Spokane,Safeway 3248,WA,West 902 Francis Avenue,99205,Safeway
+347,-117.3692564,47.6009159,https://www.albertsons.com/pharmacy/covid-19.html,Spokane,Albertsons 1268,WA,3010 E 57th Ave,99223,Albertsons
+348,-117.3996053,47.750404,https://www.safeway.com/pharmacy/covid-19.html,Spokane,Safeway 1299,WA,10100 N Newport Highway,99218,Safeway
+349,-117.3768018,47.6294826,https://www.safeway.com/pharmacy/covid-19.html,Spokane,Safeway 1242,WA,E 2509 29th Ave,99223,Safeway
+350,-117.3969117,47.6723397,https://www.safeway.com/pharmacy/covid-19.html,Spokane,Safeway 3255,WA,East 933 Mission Avenue,99202,Safeway
+351,-117.4384739,47.6800299,https://www.safeway.com/pharmacy/covid-19.html,Spokane,Safeway 0342,WA,1616 W Northwest Boulevard,99205,Safeway
+352,-117.490696,47.7396198,https://www.albertsons.com/pharmacy/covid-19.html,Spokane,Albertsons 0206,WA,9001 N. Indian Trail Rd,99208,Albertsons
+353,-117.369546,47.6941742,https://www.safeway.com/pharmacy/covid-19.html,Spokane,Safeway 1799,WA,3919 N. Market Street,99207,Safeway
+354,-117.2183274,47.6556871,https://www.safeway.com/pharmacy/covid-19.html,Spokane,Safeway 1473,WA,14020 E Sprague,99216,Safeway
+355,-117.3957301,47.717908,https://www.albertsons.com/pharmacy/covid-19.html,Spokane,Albertsons 0265,WA,6520 N. Nevada,99208,Albertsons
+356,-117.2248649,47.6259992,https://www.albertsons.com/pharmacy/covid-19.html,Spokane,Albertsons 0258,WA,13606 East 32nd Avenue,99216,Albertsons
+357,-117.4504732,47.6990348,https://www.safeway.com/pharmacy/covid-19.html,Spokane,Safeway 1494,WA,2507 W. Wellesley,99205,Safeway
+358,-117.2877703,47.6818398,https://www.albertsons.com/pharmacy/covid-19.html,SPOKANE VALLEY,Albertsons 0246,WA,8851 E. TRENT AVENUE,99212,Albertsons
+359,-122.3311145,48.2377706,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Stanwood,Haggen 3480,WA,26603 72nd Avenue NW,98292,Haggen
+360,-122.6521602,45.7153076,https://www.safeway.com/pharmacy/covid-19.html,"Suite 1, Vancouver",Safeway 1842,WA,13023 Ne Hwy 99,98686,Safeway
+361,-120.0161438,46.3220387,https://www.safeway.com/pharmacy/covid-19.html,Sunnyside,Safeway 0563 Safeway,WA,613 Sixth,98944,Safeway
+362,-122.4575528,47.2512312,https://www.safeway.com/pharmacy/covid-19.html,Tacoma,Safeway 0329,WA,1112 South M Street,98405,Safeway
+363,-122.5541533,47.1804004,https://www.albertsons.com/pharmacy/covid-19.html,Tacoma,Albertsons 3411,WA,8611 Steilacoom Blvd. SW,98498,Albertsons
+364,-122.4348594,47.1172907,https://www.albertsons.com/pharmacy/covid-19.html,Tacoma,Albertsons 0493,WA,104 Military Rd,98444,Albertsons
+365,-122.5166668,47.2725576,https://www.safeway.com/pharmacy/covid-19.html,Tacoma,Safeway 1978,WA,2637 N. Pearl St.,98407,Safeway
+366,-122.4092763,47.1906875,https://www.safeway.com/pharmacy/covid-19.html,Tacoma,Safeway 1436,WA,1624 72nd Street E,98404,Safeway
+367,-122.4537452,47.2221556,https://www.safeway.com/pharmacy/covid-19.html,Tacoma,Safeway 1437,WA,1302 S 38th,98418,Safeway
+368,-122.4902562,47.2694564,https://www.safeway.com/pharmacy/covid-19.html,Tacoma,Safeway 3424,WA,2411 North Proctor,98406,Safeway
+369,-122.4429908,47.2070292,https://www.safeway.com/pharmacy/covid-19.html,Tacoma,Safeway 1594,WA,707 South 56th St.,98408,Safeway
+370,-120.3237099,46.3758948,https://www.safeway.com/pharmacy/covid-19.html,Toppenish,Safeway 0584,WA,711 West First Ave,98948,Safeway
+371,-122.9000191,47.0185465,https://www.safeway.com/pharmacy/covid-19.html,Tumwater,Safeway 1503,WA,520 Cleveland,98501,Safeway
+372,-122.9198033,46.998425,https://www.albertsons.com/pharmacy/covid-19.html,Tumwater,Albertsons 1407,WA,705 Trosper Road S. W.,98512,Albertsons
+373,-122.6688366,45.6485564,https://www.safeway.com/pharmacy/covid-19.html,Vancouver,Safeway 0400,WA,3707 North Main Street,98663,Safeway
+374,-122.6058218,45.6664205,https://www.safeway.com/pharmacy/covid-19.html,Vancouver,Safeway 1611,WA,6711 Ne 63rd St.,98661,Safeway
+375,-122.6539701,45.7238213,https://www.albertsons.com/pharmacy/covid-19.html,Vancouver,Albertsons 0580,WA,14300 N. E. 20th Ave.,98686,Albertsons
+376,-122.5591923,45.6412802,https://www.safeway.com/pharmacy/covid-19.html,Vancouver,Safeway 1653,WA,2615 Ne 112th Avenue,98684,Safeway
+377,-122.5083894,45.67033,https://www.safeway.com/pharmacy/covid-19.html,Vancouver,Safeway 1704,WA,6700 Ne 162nd Ave Suite 500,98682,Safeway
+378,-122.5334324,45.6182498,https://www.safeway.com/pharmacy/covid-19.html,Vancouver,Safeway 1519,WA,13719 Se Mill Plain Blvd,98684,Safeway
+379,-122.605119,45.6261154,https://www.safeway.com/pharmacy/covid-19.html,Vancouver,Safeway 1103,WA,6701 East Mill Plain Blvd,98661,Safeway
+380,-118.3494473,46.0488658,https://www.safeway.com/pharmacy/covid-19.html,Walla Walla,Safeway 1160,WA,1600 Plaza Way,99362,Safeway
+381,-118.3399673,46.070317,https://www.safeway.com/pharmacy/covid-19.html,Walla Walla,Safeway 0307,WA,215 East Rose Street,99362,Safeway
+382,-118.3050028,46.0766606,https://www.albertsons.com/pharmacy/covid-19.html,Walla Walla,Albertsons 3414,WA,450 N. Wilbur Avenue,99362,Albertsons
+383,-122.3374306,45.5789723,https://www.safeway.com/pharmacy/covid-19.html,Washougal,Safeway 1687,WA,3307 Evergreen Blvd. Bld 5,98671,Safeway
+384,-120.3261262,47.4308225,https://www.safeway.com/pharmacy/covid-19.html,Wenatchee,Safeway 1449,WA,501 N Miller St,98801,Safeway
+385,-120.3282891,47.4379228,https://www.albertsons.com/pharmacy/covid-19.html,Wenatchee,Albertsons 3412,WA,1128 N. Miller,98801,Albertsons
+386,-122.1594753,47.7557478,https://www.haggen.com/explore-our-departments/pharmacy/covid-19/,Woodinville,Haggen 3498,WA,17641 Garden Way NE,98072,Haggen
+387,-122.083202,47.7559125,https://www.safeway.com/pharmacy/covid-19.html,Woodinville,Safeway 0533 Safeway,WA,19150 N E Woodinville Duvall,98077,Safeway
+388,-122.7501491,45.9123907,https://www.safeway.com/pharmacy/covid-19.html,Woodland,Safeway 1762,WA,1725 Pacific Avenue,98674,Safeway
+389,-120.5183062,46.6032954,https://www.safeway.com/pharmacy/covid-19.html,Yakima,Safeway 0462,WA,205 North 5th Ave,98902,Safeway
+390,-120.4507272,46.6704145,https://www.safeway.com/pharmacy/covid-19.html,Yakima,Safeway 1660,WA,905 E. Meade,98903,Safeway
+391,-120.5344423,46.6025231,https://www.safeway.com/pharmacy/covid-19.html,Yakima,Safeway 0149,WA,1610 West Lincoln,98902,Safeway
+392,-120.5872233,46.5989041,https://www.safeway.com/pharmacy/covid-19.html,Yakima,Safeway 0502 Safeway,WA,5702 Summitview Ave,98908,Safeway
+393,-122.5962018,46.9338665,https://www.safeway.com/pharmacy/covid-19.html,Yelm,Safeway 1619,WA,1109 Yelm Ave E.,98597,Safeway
+394,-122.5224311,47.2564283,https://www.safeway.com/pharmacy/covid-19.html,Tacoma,Safeway 1246,WA,6201 6th Ave,98406,Safeway
+395,-122.27,47.5233,https://www.riteaid.com/pharmacy/covid-qualifier,Seattle,Rite Aid,WA,9000 Rainier Avenue S Ste C,98118,Rite Aid
+396,-122.459,48.7728,https://www.riteaid.com/pharmacy/covid-qualifier,Bellingham,Rite Aid,WA,1225 East Sunset Dr Ste 110,98226,Rite Aid
+397,-122.202,47.3726,https://www.riteaid.com/pharmacy/covid-qualifier,Kent,Rite Aid,WA,10407 SE 256th Street,98030,Rite Aid
+398,-122.305,47.3672,https://www.riteaid.com/pharmacy/covid-qualifier,Kent,Rite Aid,WA,"26200 Pacific Hwy.,South",98032,Rite Aid
+399,-122.2059749,47.807344,https://www.fredmeyer.com/rx/covid-eligibility,Bothell,Fred Meyer - Bothell,WA,21045 Bothell Everett Hwy,98021,Fred Meyer
+400,-122.2116418,47.7652079,https://www.qfc.com/rx/covid-eligibility,Bothell,Quality Food Center - Bothell,WA,18921 Bothell Way NE,98011,QFC
+401,-122.19894,47.67774,https://www.qfc.com/rx/covid-eligibility,Kirkland,Quality Food Center - Kirkland Urban,WA,457 Central Way,98033,QFC
+402,-122.1911728,47.7124033,https://www.qfc.com/rx/covid-eligibility,Kirkland,Quality Food Center - QFC Totem Lake,WA,11224 NE 124th St,98034,QFC
+403,-122.2955091,47.8221703,https://www.fredmeyer.com/rx/covid-eligibility,Lynnwood,Fred Meyer - Lynnwood,WA,4615 196Th St Sw Ste 175,98036,Fred Meyer
+404,-122.2194132,47.8485464,https://www.qfc.com/rx/covid-eligibility,Mill Creek,Quality Food Center - Mill Creek,WA,926 164th St SE,98012,QFC
+405,-122.1263752,47.6808243,https://www.qfc.com/rx/covid-eligibility,Redmond,Quality Food Center - Bella Bottega,WA,8867 161st Ave NE,98052,QFC
+406,-122.291829,47.724006,https://www.fredmeyer.com/rx/covid-eligibility,Seattle,Fred Meyer - Lake City,WA,13000 Lake City Way Ne,98125,Fred Meyer
+407,-122.3105715,47.7333475,https://www.qfc.com/rx/covid-eligibility,Seattle,Quality Food Center - North Seattle,WA,1531 NE 145th St,98155,QFC
+408,-122.3172319,47.7093761,https://www.qfc.com/rx/covid-eligibility,Seattle,Quality Food Center - Northgate,WA,11100 Roosevelt Way NE,98125,QFC
+409,-122.5116232,48.7884657,https://www.fredmeyer.com/rx/covid-eligibility,Bellingham,Fred Meyer - North Bellingham,WA,1225 W Bakerview Rd,98226,Fred Meyer
+410,-122.4645617,48.7434772,https://www.fredmeyer.com/rx/covid-eligibility,Bellingham,Fred Meyer - Bellingham,WA,800 Lakeway Dr,98229,Fred Meyer
+411,-122.3335066,48.4667448,https://www.fredmeyer.com/rx/covid-eligibility,Burlington,Fred Meyer - Burlington,WA,920 S Burlington Blvd,98233,Fred Meyer
+412,-122.357769,48.240827,https://www.qfc.com/rx/covid-eligibility,Stanwood,Quality Food Center - Stanwood,WA,27008 92nd Ave NW,98292,QFC
+413,-122.2092576,47.8799113,https://www.fredmeyer.com/rx/covid-eligibility,Everett,Fred Meyer - Mill Creek,WA,12906 Bothell Everett Hwy,98208,Fred Meyer
+414,-122.2005469,47.9828865,https://www.qfc.com/rx/covid-eligibility,Everett,Quality Food Center - Everett-Broadway,WA,2615 Broadway,98201,QFC
+415,-122.2120286,47.9525261,https://www.qfc.com/rx/covid-eligibility,Everett,Quality Food Center - Claremont,WA,4919 Evergreen Way,98203,QFC
+416,-122.1696979,48.0853027,https://www.fredmeyer.com/rx/covid-eligibility,Marysville,Fred Meyer - Marysville,WA,9925 State Ave,98270,Fred Meyer
+417,-121.9785773,47.8629936,https://www.fredmeyer.com/rx/covid-eligibility,Monroe,Fred Meyer - Monroe,WA,18805 State Route 2,98272,Fred Meyer
+418,-122.1051955,47.9439153,https://www.fredmeyer.com/rx/covid-eligibility,Snohomish,Fred Meyer - Snohomish,WA,2801 Bickford Ave,98290,Fred Meyer
+419,-122.227,48.5104,https://www.riteaid.com/pharmacy/covid-qualifier,Sedro Woolley,Rite Aid,WA,851 Moore Street,98284,Rite Aid
+420,-122.215,47.7926,https://www.riteaid.com/pharmacy/covid-qualifier,Bothell,Rite Aid,WA,22631 Bothell Everett Highway,98021,Rite Aid
+421,-122.48,48.7845,https://www.riteaid.com/pharmacy/covid-qualifier,Bellingham,Rite Aid,WA,222 Telegraph Road,98226,Rite Aid
+422,-122.201816,47.609443,https://www.cvs.com/vaccine/intake/store/cvd-schedule,BELLEVUE,"CVS Pharmacy in BELLEVUE, WA",WA,"107 BELLEVUE WAY, SE",98004,CVS
+423,-122.493271,48.787066,https://www.cvs.com/vaccine/intake/store/cvd-schedule,BELLINGHAM,"CVS Pharmacy in BELLINGHAM, WA",WA,30 BELLIS FAIR PKWY,98226,CVS
+424,-122.172344,47.172541,https://www.cvs.com/vaccine/intake/store/cvd-schedule,BONNEY LAKE,"CVS Pharmacy in BONNEY LAKE, WA",WA,9400 192ND AVE E,98391,CVS
+425,-122.335197,47.459347,https://www.cvs.com/vaccine/intake/store/cvd-schedule,BURIEN,"CVS Pharmacy in BURIEN, WA",WA,117 SW 160TH STREET,98166,CVS
+426,-122.22746,47.910467,https://www.cvs.com/vaccine/intake/store/cvd-schedule,EVERETT,"CVS Pharmacy in EVERETT, WA",WA,405 SE EVERETT MALL WAY,98208,CVS
+427,-122.258808,47.89003,https://www.cvs.com/vaccine/intake/store/cvd-schedule,EVERETT,"CVS Pharmacy in EVERETT, WA",WA,11918 AIRPORT RD.,98204,CVS
+428,-122.305319,47.313129,https://www.cvs.com/vaccine/intake/store/cvd-schedule,FEDERAL WAY,"CVS Pharmacy in FEDERAL WAY, WA",WA,2201 S COMMONS,98003,CVS
+429,-122.360148,47.30109,https://www.cvs.com/vaccine/intake/store/cvd-schedule,FEDERAL WAY,"CVS Pharmacy in FEDERAL WAY, WA",WA,33520 21ST AVE. SW,98023,CVS
+430,-122.607922,47.361372,https://www.cvs.com/vaccine/intake/store/cvd-schedule,GIG HARBOR,"CVS Pharmacy in GIG HARBOR, WA",WA,11400 51ST AVE NW,98332,CVS
+431,-122.050597,47.541811,https://www.cvs.com/vaccine/intake/store/cvd-schedule,ISSAQUAH,"CVS Pharmacy in ISSAQUAH, WA",WA,755 NW GILMAN BLVD,98027,CVS
+432,-122.899225,46.142505,https://www.cvs.com/vaccine/intake/store/cvd-schedule,KELSO,"CVS Pharmacy in KELSO, WA",WA,205 THREE RIVERS DR,98626,CVS
+433,-119.223645,46.222056,https://www.cvs.com/vaccine/intake/store/cvd-schedule,KENNEWICK,"CVS Pharmacy in KENNEWICK, WA",WA,1106 N COLUMBIA CENTER BLVD,99336,CVS
+434,-122.203392,47.366473,https://www.cvs.com/vaccine/intake/store/cvd-schedule,KENT,"CVS Pharmacy in KENT, WA",WA,26301 104TH AVE SE,98030,CVS
+435,-122.836023,47.042984,https://www.cvs.com/vaccine/intake/store/cvd-schedule,LACEY,"CVS Pharmacy in LACEY, WA",WA,665 SLEATER KINNEY RD SE,98503,CVS
+436,-122.100545,47.996942,https://www.cvs.com/vaccine/intake/store/cvd-schedule,LAKE STEVENS,"CVS Pharmacy in LAKE STEVENS, WA",WA,9601 MARKET PL,98258,CVS
+437,-122.51906,47.172037,https://www.cvs.com/vaccine/intake/store/cvd-schedule,LAKEWOOD,"CVS Pharmacy in LAKEWOOD, WA",WA,9400 GRAVELLY LAKE DR SW,98499,CVS
+438,-122.511343,47.163144,https://www.cvs.com/vaccine/intake/store/cvd-schedule,LAKEWOOD,"CVS Pharmacy in LAKEWOOD, WA",WA,5618 LAKEWOOD TOWN CENTER BLVD SW,98499,CVS
+439,-122.266795,47.832516,https://www.cvs.com/vaccine/intake/store/cvd-schedule,LYNNWOOD,"CVS Pharmacy in LYNNWOOD, WA",WA,18305 ALDERWOOD MALL PKWY,98037,CVS
+440,-122.191833,48.148999,https://www.cvs.com/vaccine/intake/store/cvd-schedule,MARYSVILLE,"CVS Pharmacy in MARYSVILLE, WA",WA,16818 TWIN LAKES AVE,98271,CVS
+441,-122.937503,47.044554,https://www.cvs.com/vaccine/intake/store/cvd-schedule,OLYMPIA,"CVS Pharmacy in OLYMPIA, WA",WA,2925 HARRISON AVE NW,98502,CVS
+442,-122.636328,47.73392,https://www.cvs.com/vaccine/intake/store/cvd-schedule,POULSBO,"CVS Pharmacy in POULSBO, WA",WA,18820 STATE HWY 305 NE,98370,CVS
+443,-122.291627,47.112908,https://www.cvs.com/vaccine/intake/store/cvd-schedule,PUYALLUP,"CVS Pharmacy in PUYALLUP, WA",WA,10302 156TH ST E,98374,CVS
+444,-122.29499,47.160178,https://www.cvs.com/vaccine/intake/store/cvd-schedule,PUYALLUP,"CVS Pharmacy in PUYALLUP, WA",WA,3310 S MERIDIAN,98373,CVS
+445,-122.103483,47.672334,https://www.cvs.com/vaccine/intake/store/cvd-schedule,REDMOND,"CVS Pharmacy in REDMOND, WA",WA,17700 NE 76TH ST,98052,CVS
+446,-122.197887,47.445701,https://www.cvs.com/vaccine/intake/store/cvd-schedule,RENTON,"CVS Pharmacy in RENTON, WA",WA,10712 SE CARR ROAD,98055,CVS
+447,-122.199897,47.496213,https://www.cvs.com/vaccine/intake/store/cvd-schedule,RENTON,"CVS Pharmacy in RENTON, WA",WA,1215 N LANDING WAY,98057,CVS
+448,-119.313227,46.259012,https://www.cvs.com/vaccine/intake/store/cvd-schedule,RICHLAND,"CVS Pharmacy in RICHLAND, WA",WA,2941 QUEENSGATE DR,99352,CVS
+449,-122.333482,47.661602,https://www.cvs.com/vaccine/intake/store/cvd-schedule,SEATTLE,"CVS Pharmacy in SEATTLE, WA",WA,2100 NORTH 45TH STREET,98103,CVS
+450,-122.397945,47.640888,https://www.cvs.com/vaccine/intake/store/cvd-schedule,SEATTLE,"CVS Pharmacy in SEATTLE, WA",WA,2438 32ND AVE WEST,98199,CVS
+451,-122.375445,47.668932,https://www.cvs.com/vaccine/intake/store/cvd-schedule,SEATTLE,"CVS Pharmacy in SEATTLE, WA",WA,"1448 NW MARKET ST, SUITE 100",98107,CVS
+452,-122.313484,47.660322,https://www.cvs.com/vaccine/intake/store/cvd-schedule,SEATTLE,"CVS Pharmacy in SEATTLE, WA",WA,4313 UNIVERSITY WAY NE,98105,CVS
+453,-122.338562,47.608459,https://www.cvs.com/vaccine/intake/store/cvd-schedule,SEATTLE,"CVS Pharmacy in SEATTLE, WA",WA,1401 2ND AVE,98101,CVS
+454,-122.338855,47.623385,https://www.cvs.com/vaccine/intake/store/cvd-schedule,SEATTLE,"CVS Pharmacy in SEATTLE, WA",WA,503 WESTLAKE AVE N,98109,CVS
+455,-122.325403,47.708885,https://www.cvs.com/vaccine/intake/store/cvd-schedule,SEATTLE,"CVS Pharmacy in SEATTLE, WA",WA,302 NE NORTHGATE WAY,98125,CVS
+456,-122.341379,47.613531,https://www.cvs.com/vaccine/intake/store/cvd-schedule,SEATTLE,"CVS Pharmacy in SEATTLE, WA",WA,2035 4TH AVE,98121,CVS
+457,-122.357011,47.624275,https://www.cvs.com/vaccine/intake/store/cvd-schedule,SEATTLE,"CVS Pharmacy in SEATTLE, WA",WA,"531 QUEEN ANNE AVENUE, NORTH",98109,CVS
+458,-122.695578,47.658914,https://www.cvs.com/vaccine/intake/store/cvd-schedule,SILVERDALE,"CVS Pharmacy in SILVERDALE, WA",WA,3201 NW RANDALL WAY,98383,CVS
+459,-117.400122,47.74747,https://www.cvs.com/vaccine/intake/store/cvd-schedule,SPOKANE,"CVS Pharmacy in SPOKANE, WA",WA,9770 N NEWPORT HWY,99218,CVS
+460,-117.36663,47.608794,https://www.cvs.com/vaccine/intake/store/cvd-schedule,SPOKANE,"CVS Pharmacy in SPOKANE, WA",WA,4915 S REGAL ST,99223,CVS
+461,-122.480236,47.237627,https://www.cvs.com/vaccine/intake/store/cvd-schedule,TACOMA,"CVS Pharmacy in TACOMA, WA",WA,3320 S 23RD ST,98405,CVS
+462,-122.258668,47.455144,https://www.cvs.com/vaccine/intake/store/cvd-schedule,TUKWILA,"CVS Pharmacy in TUKWILA, WA",WA,301 STRANDER BLVD,98188,CVS
+463,-122.668004,45.686366,https://www.cvs.com/vaccine/intake/store/cvd-schedule,VANCOUVER,"CVS Pharmacy in VANCOUVER, WA",WA,8801 NE HAZEL DELL AVE,98665,CVS
+464,-122.505839,45.616734,https://www.cvs.com/vaccine/intake/store/cvd-schedule,VANCOUVER,"CVS Pharmacy in VANCOUVER, WA",WA,16200 SE MILL PLAIN BLVD,98684,CVS
+465,-122.154033,47.759037,https://www.cvs.com/vaccine/intake/store/cvd-schedule,WOODINVILLE,"CVS Pharmacy in WOODINVILLE, WA",WA,13950 NE 178TH PL,98072,CVS
+466,-117.3622158,47.6525303,https://www.fredmeyer.com/rx/covid-eligibility,Spokane,Fred Meyer - Thor Street Spokane,WA,400 S Thor St,99202,Fred Meyer
+467,-117.4023408,47.7675968,https://www.fredmeyer.com/rx/covid-eligibility,Spokane,Fred Meyer - Wandermere,WA,12120 N Division St,99218,Fred Meyer
+468,-117.1934717,47.6588398,https://www.fredmeyer.com/rx/covid-eligibility,Spokane Valley,Fred Meyer - Spokane Sullivan,WA,15609 E Sprague Ave,99037,Fred Meyer
+469,-119.283,46.2749,https://www.riteaid.com/pharmacy/covid-qualifier,Richland,Rite Aid,WA,1329 Lee Boulevard,99352,Rite Aid
+470,-122.334,47.4705,https://www.riteaid.com/pharmacy/covid-qualifier,Burien,Rite Aid,WA,110 SW 148th Street,98166,Rite Aid
+471,-122.278,47.8296,https://www.riteaid.com/pharmacy/covid-qualifier,Lynnwood,Rite Aid,WA,18600-B 33rd Avenue West,98037,Rite Aid
+472,-119.1614045,46.1972209,https://www.fredmeyer.com/rx/covid-eligibility,Kennewick,Fred Meyer - Kennewick,WA,2811 W 10Th Ave,99336,Fred Meyer
+473,-119.2865213,46.2626628,https://www.fredmeyer.com/rx/covid-eligibility,Richland,Fred Meyer - Richland,WA,101 Wellsian Way,99352,Fred Meyer
+474,-122.581157,47.307272,https://www.fredmeyer.com/rx/covid-eligibility,Gig Harbor,Fred Meyer - Gig Harbor,WA,5502 Point Fosdick Dr,98335,Fred Meyer
+475,-122.296414,47.201305,https://www.fredmeyer.com/rx/covid-eligibility,Puyallup,Fred Meyer - Puyallup,WA,1100 N Meridian,98371,Fred Meyer
+476,-122.2968621,47.0992143,https://www.fredmeyer.com/rx/covid-eligibility,Puyallup,Fred Meyer - South Hill,WA,17404 MERIDIAN E,98375,Fred Meyer
+477,-122.3973026,47.055248,https://www.fredmeyer.com/rx/covid-eligibility,Spanaway,Fred Meyer - Bethel Station,WA,22303 Mountain Hwy E,98387,Fred Meyer
+478,-122.2278548,47.2044963,https://www.fredmeyer.com/rx/covid-eligibility,Sumner,Fred Meyer - Sumner,WA,1201 Valley Ave E,98390,Fred Meyer
+479,-122.4358757,47.1905971,https://www.fredmeyer.com/rx/covid-eligibility,Tacoma,Fred Meyer - Tacoma-Pacific,WA,7250 Pacific Ave,98408,Fred Meyer
+480,-122.4972644,47.2440486,https://www.fredmeyer.com/rx/covid-eligibility,Tacoma,Fred Meyer - Tacoma-Stevens,WA,4505 S 19Th St,98405,Fred Meyer
+481,-122.828639,47.453081,https://www.qfc.com/rx/covid-eligibility,Belfair,Quality Food Center - Belfair,WA,201 NE State Route 300,98528,QFC
+482,-122.6265172,47.609617,https://www.fredmeyer.com/rx/covid-eligibility,Bremerton,Fred Meyer - Kitsap,WA,5050 State Highway 303 Ne,98311,Fred Meyer
+483,-122.3315918,47.4752714,https://www.fredmeyer.com/rx/covid-eligibility,Burien,Fred Meyer - Burien,WA,14300 1St Ave S,98168,Fred Meyer
+484,-122.6292304,47.5032857,https://www.fredmeyer.com/rx/covid-eligibility,Port Orchard,Fred Meyer - Port Orchard,WA,1900 Se Sedgwick Rd,98366,Fred Meyer
+485,-122.3214367,47.6225757,https://www.qfc.com/rx/covid-eligibility,Seattle,Quality Food Center - Broadway Market,WA,417 Broadway E Box 2,98102,QFC
+486,-122.385198,47.561348,https://www.qfc.com/rx/covid-eligibility,Seattle,Quality Food Center - West Seattle,WA,4550 42nd Ave SW,98116,QFC
+487,-122.346878,47.6250038,https://www.qfc.com/rx/covid-eligibility,Seattle,Quality Food Center - Uptown,WA,500 Mercer St,98109,QFC
+488,-122.3684231,47.6602885,https://www.fredmeyer.com/rx/covid-eligibility,Seattle,Fred Meyer - Ballard,WA,915 Nw 45Th St,98107,Fred Meyer
+489,-117.175627,46.712044,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Pullman,Pullman Supercenter,WA,1690 Se Harvest Dr,99163,Walmart
+490,-122.8239382,46.9947927,https://www.qfc.com/rx/covid-eligibility,Lacey,Quality Food Center - Lacey,WA,4775 Whitman Ln SE,98513,QFC
+491,-123.124041,47.229962,https://www.fredmeyer.com/rx/covid-eligibility,Shelton,Fred Meyer - Shelton,WA,301 E Wallace Kneeland Blvd,98584,Fred Meyer
+492,-122.9146539,46.998181,https://www.fredmeyer.com/rx/covid-eligibility,Tumwater,Fred Meyer - Tumwater,WA,555 Trosper Rd Sw,98512,Fred Meyer
+493,-122.21,47.7662,https://www.riteaid.com/pharmacy/covid-qualifier,Bothell,Rite Aid,WA,"19107 Bothell Way, N.E.",98011,Rite Aid
+494,-122.52841,48.01028,https://www.riteaid.com/pharmacy/covid-qualifier,Freeland,Rite Aid,WA,1609 E Main Street Suite B,98249,Rite Aid
+495,-117.185,46.7124,https://www.riteaid.com/pharmacy/covid-qualifier,Pullman,Rite Aid,WA,1630 South Grand Avenue,99163,Rite Aid
+496,-122.5489608,45.7841164,https://www.fredmeyer.com/rx/covid-eligibility,Battle Ground,Fred Meyer - Battle Ground,WA,401 Nw 12Th Ave,98604,Fred Meyer
+497,-122.964547,46.149001,https://www.fredmeyer.com/rx/covid-eligibility,Longview,Fred Meyer - Longview,WA,3184 Ocean Beach Hwy,98632,Fred Meyer
+498,-122.5509276,45.6760999,https://www.fredmeyer.com/rx/covid-eligibility,Vancouver,Fred Meyer - Orchards,WA,7411 NE 117Th Ave,98662,Fred Meyer
+499,-122.6624984,45.7206085,https://www.fredmeyer.com/rx/covid-eligibility,Vancouver,Fred Meyer - Salmon Creek,WA,800 Ne Tenney Rd,98685,Fred Meyer
+500,-122.6633436,45.6770112,https://www.fredmeyer.com/rx/covid-eligibility,Vancouver,Fred Meyer - Hazel Dell,WA,7700 Ne Highway 99,98665,Fred Meyer
+501,-122.5845947,45.6255417,https://www.fredmeyer.com/rx/covid-eligibility,Vancouver,Fred Meyer - Fred Meyer Pharmacy inside The Vancouver Clinic,WA,"700 NE 87th Avenue, Suite 180",98664,Fred Meyer
+502,-122.6455507,45.6203551,https://www.fredmeyer.com/rx/covid-eligibility,Vancouver,Fred Meyer - Grand Central,WA,2500 Columbia House Blvd,98661,Fred Meyer
+503,-122.5562683,45.6195112,https://www.fredmeyer.com/rx/covid-eligibility,Vancouver,Fred Meyer - Mill Plain,WA,11325 Se Mill Plain Blvd,98684,Fred Meyer
+504,-122.825,46.9953,https://www.riteaid.com/pharmacy/covid-qualifier,Lacey,Rite Aid,WA,"4776 Whitman Lane, S.E.",98513,Rite Aid
+505,-117.368,47.6112,https://www.riteaid.com/pharmacy/covid-qualifier,Spokane,Rite Aid,WA,4514 South Regal Street,99223,Rite Aid
+506,-123.806587,46.975337,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Aberdeen,Aberdeen Supercenter,WA,909 E Wishkah St,98520,Walmart
+507,-122.240883,47.301493,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Auburn,Auburn Supercenter,WA,762 Outlet Collection Way,98001,Walmart
+508,-122.171764,47.167646,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Bonney Lake,Bonney Lake Supercenter,WA,19205 State Route 410 E,98391,Walmart
+509,-122.632771,47.624868,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Bremerton,Bremerton Store,WA,6797 State Highway 303 Ne,98311,Walmart
+510,-122.979138,46.678925,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Chehalis,Chehalis Supercenter,WA,1601 Nw Louisiana Ave,98532,Walmart
+511,-122.108357,47.361081,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Covington,Covington Store,WA,17432 Se 270th Pl,98042,Walmart
+512,-122.30978,47.321787,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Federal Way,Federal Way Store,WA,1900 S 314th St,98003,Walmart
+513,-122.310195,47.292601,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Federal Way,Federal Way Supercenter,WA,34520 16th Ave S,98003,Walmart
+514,-122.818677,46.997056,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Lacey,Lacey Neighborhood Market,WA,5110 Yelm Highway,98503,Walmart
+515,-122.77375,47.060493,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Lacey,Lacey Supercenter,WA,1401 Galaxy Dr Ne,98516,Walmart
+516,-122.516962,47.193924,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Lakewood,Lakewood Supercenter,WA,7001 Bridgeport Way W,98499,Walmart
+517,-122.627567,47.516653,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Port Orchard,Port Orchard Supercenter,WA,3497 Bethel Rd Se,98366,Walmart
+518,-122.29724,47.105989,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Puyallup,Puyallup Supercenter,WA,16502 Meridian E,98375,Walmart
+519,-122.288686,47.161109,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Puyallup,Puyallup Supercenter,WA,310 31st Ave Se,98374,Walmart
+520,-122.221072,47.472133,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Renton,Renton Supercenter,WA,743 Rainier Avenue South,98057,Walmart
+521,-123.125644,47.233071,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Shelton,Shelton Supercenter,WA,100 E Wallace Kneeland Blvd,98584,Walmart
+522,-122.419456,47.073972,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Spanaway,Spanaway Supercenter,WA,20307 Mountain Hwy E,98387,Walmart
+523,-122.478581,47.24002,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Tacoma,Tacoma Supercenter,WA,1965 S. Union Ave,98405,Walmart
+524,-122.919037,46.994468,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Tumwater,Tumwater Supercenter,WA,5900 Littlerock Rd Sw,98512,Walmart
+525,-122.577503,46.934748,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Yelm,Yelm Supercenter,WA,17100 State Route 507 Se,98597,Walmart
+526,-117.7152642,48.2760501,https://www.healthmartcovidvaccine.com/,Chewelah,Valley Drug Health Mart Pharmacy,WA,102 E MAIN,99109,Health Mart
+527,-122.3773165,47.8082347,https://www.healthmartcovidvaccine.com/,EDMONDS,PAKTIA PHARMACY,WA,315 5TH AVE S SUITE C,98020,Health Mart
+528,-123.3997552,47.0046574,https://www.healthmartcovidvaccine.com/,Elma,Elma Health Mart Pharmacy,WA,221 WEST MAIN ST,98541,Health Mart
+529,-123.3919283,47.0069571,https://www.healthmartcovidvaccine.com/,ELMA,EAST COUNTY PHARMACY,WA,"610 E MAIN ST, SUITE 200",98541,Health Mart
+530,-122.315225,47.3218624,https://www.healthmartcovidvaccine.com/,FEDERAL WAY,Angel Pharmacy,WA,31217 PACIFIC HWY SOUTH,98003,Health Mart
+531,-122.3199713,47.3156946,https://www.healthmartcovidvaccine.com/,FEDERAL WAY,ONURI PHARMACY,WA,1014 S 320TH ST STE G,98003,Health Mart
+532,-118.2039151,48.8631171,https://www.healthmartcovidvaccine.com/,Kettle Falls,Kettle Falls Health Mart Pharmacy,WA,280 WEST 3RD AVE,99141,Health Mart
+533,-122.7730502,47.0709221,https://www.healthmartcovidvaccine.com/,Lacey,Hawk's Prairie Health Mart Pharmacy,WA,2539 Marvin Rd NE Suite E,98516,Health Mart
+534,-123.266096,47.0553589,https://www.healthmartcovidvaccine.com/,McCLEARY,McCleary Health Mart Pharmacy,WA,115 W SIMPSON AVE,98557,Health Mart
+535,-119.3095205,47.1039067,https://www.healthmartcovidvaccine.com/,Moses Lake,Southgate Pharmacy,WA,2709 W Broadway Ave,98837,Health Mart
+536,-122.3253942,48.4213986,https://www.healthmartcovidvaccine.com/,MOUNT VERNON,HILLTOP PHARMACY,WA,1223 E. DIVISION ST.,98274,Health Mart
+537,-122.8460933,47.0506543,https://www.healthmartcovidvaccine.com/,OLYMPIA,SAMY'S HEALTH MART PHARMACY,WA,3525 ENSIGN RD NE STE #H,98506,Health Mart
+538,-122.2821662,47.5385261,https://www.healthmartcovidvaccine.com/,SEATTLE,KING PLAZA PHARMACY,WA,7101 MLK JR WAY S #101B,98118,Health Mart
+539,-123.123871,47.225444,https://www.healthmartcovidvaccine.com/,SHELTON,SHELTON PHARMACY,WA,110 WEST K ST,98584,Health Mart
+540,-120.1182168,48.3600405,https://www.healthmartcovidvaccine.com/,Twisp,Ulrich's Valley Health Mart Pharmacy,WA,423 E METHOW VALLEY HWY,98856,Health Mart
+541,-122.1517686,47.7511665,https://www.healthmartcovidvaccine.com/,Woodinville,Woodinville Health Mart Pharmacy,WA,17000 - 140th Avenue NE #E101,98072,Health Mart
+542,-120.2909944,47.4070717,https://www.fredmeyer.com/rx/covid-eligibility,East Wenatchee,Fred Meyer - Wenatchee,WA,11 Grant Rd,98802,Fred Meyer
+543,-120.5517978,46.9912557,https://www.fredmeyer.com/rx/covid-eligibility,Ellensburg,Fred Meyer - Ellensburg,WA,201 S Water St,98926,Fred Meyer
+544,-122.54,47.8087,https://www.riteaid.com/pharmacy/covid-qualifier,Kingston,Rite Aid,WA,27000 Miller Bay Rd NE,98346,Rite Aid
+545,-122.2007629,47.6347518,https://www.qfc.com/rx/covid-eligibility,Bellevue,Quality Food Center - Northtown Bellevue,WA,2636 Bellevue Way NE,98004,QFC
+546,-122.363693,47.701923,https://www.qfc.com/rx/covid-eligibility,Seattle,Quality Food Center - Holman Road,WA,9999 Holman Rd NW,98117,QFC
+547,-122.3587819,47.6919791,https://www.fredmeyer.com/rx/covid-eligibility,Seattle,Fred Meyer - Greenwood,WA,100 Nw 85Th St,98117,Fred Meyer
+548,-122.2964227,47.6622899,https://www.qfc.com/rx/covid-eligibility,Seattle,Quality Food Center - University Village,WA,2746 NE 45th St,98105,QFC
+549,-120.5643649,46.6201393,https://www.fredmeyer.com/rx/covid-eligibility,Yakima,Fred Meyer - West Yakima,WA,1206 N 40Th Ave,98908,Fred Meyer
+550,-122.1484722,47.5968803,https://www.qfc.com/rx/covid-eligibility,Bellevue,Quality Food Center - Bellevue East,WA,1510 145th Pl SE,98007,QFC
+551,-122.1446464,47.6288277,https://www.fredmeyer.com/rx/covid-eligibility,Bellevue,Fred Meyer - Bellevue,WA,2041 148Th Ave Ne,98007,Fred Meyer
+552,-122.0388627,47.548743,https://www.fredmeyer.com/rx/covid-eligibility,Issaquah,Fred Meyer - Issaquah,WA,6100 E Lake Sammamish Pkwy Se,98029,Fred Meyer
+553,-122.060371,47.546589,https://www.qfc.com/rx/covid-eligibility,Issaquah,Quality Food Center - Issaquah,WA,1540 NW Gilman Blvd,98027,QFC
+554,-122.0033746,47.5656963,https://www.qfc.com/rx/covid-eligibility,Issaquah,Quality Food Center - Klahanie,WA,4570 Klahanie Dr SE,98029,QFC
+555,-122.025925,47.6986213,https://www.qfc.com/rx/covid-eligibility,Redmond,Quality Food Center - Redmond Ridge,WA,23475 NE Novelty Hill Rd,98053,QFC
+556,-119.987509,47.842459,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Chelan,Chelan Supercenter,WA,108 Apple Blossom Dr,98816,Walmart
+557,-119.5078293,48.4139887,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Omak,Omak Supercenter,WA,902 Engh Rd,98841,Walmart
+558,-122.1671929,47.5786777,https://www.qfc.com/rx/covid-eligibility,Bellevue,Quality Food Center - Factoria,WA,3550 Factoria Blvd SE,98006,QFC
+559,-121.7804871,47.4933907,https://www.qfc.com/rx/covid-eligibility,North Bend,Quality Food Center - North Bend,WA,460 E North Bend Way,98045,QFC
+560,-119.540466,47.30449,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Ephrata,Ephrata Supercenter,WA,1399 Nat Washington Way,98823,Walmart
+561,-120.339491,47.454144,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Wenatchee,Wenatchee Supercenter,WA,2000 N Wenatchee Ave,98801,Walmart
+562,-119.17725,46.182607,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Kennewick,Kennewick Supercenter,WA,2720 S Quillan St,99337,Walmart
+563,-119.274113,47.141249,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Moses Lake,Moses Lake Supercenter,WA,1005 N Stratford Rd,98837,Walmart
+564,-119.147892,46.824185,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Othello,Othello Supercenter,WA,1860 E Main St,99344,Walmart
+565,-119.307866,46.255963,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Richland,Richland Supercenter,WA,2801 Duportail St,99352,Walmart
+566,-122.2981516,47.3742246,https://www.fredmeyer.com/rx/covid-eligibility,Kent,Fred Meyer - Redondo,WA,25250 Pacific Hwy S,98032,Fred Meyer
+567,-122.2192897,47.4775586,https://www.fredmeyer.com/rx/covid-eligibility,Renton,Fred Meyer - Renton,WA,365 Renton Center Way Sw,98057,Fred Meyer
+568,-122.1993985,47.4429452,https://www.fredmeyer.com/rx/covid-eligibility,Renton,Fred Meyer - Benson Plaza,WA,17801 108Th Ave Se,98055,Fred Meyer
+569,-122.142,47.6316,https://www.riteaid.com/pharmacy/covid-qualifier,Redmond,Rite Aid,WA,14880 N.E. 24th St.,98052,Rite Aid
+570,-122.497,48.7754,https://www.riteaid.com/pharmacy/covid-qualifier,Bellingham,Rite Aid,WA,3227 Northwest Avenue,98225,Rite Aid
+571,-122.214,47.9527,https://www.riteaid.com/pharmacy/covid-qualifier,Everett,Rite Aid,WA,4920-A Evergreen Way,98203,Rite Aid
+572,-119.992,46.3253,https://www.riteaid.com/pharmacy/covid-qualifier,Sunnyside,Rite Aid,WA,2010 Yakima Valley Hwy Ste C1,98944,Rite Aid
+573,-122.183,48.1516,https://www.riteaid.com/pharmacy/covid-qualifier,Arlington,Rite Aid,WA,17226 Smokey Point Boulevard,98223,Rite Aid
+574,-119.093,46.2318,https://www.riteaid.com/pharmacy/covid-qualifier,Pasco,Rite Aid,WA,215 North 4th Avenue,99301,Rite Aid
+575,-117.411,47.7392,https://www.riteaid.com/pharmacy/covid-qualifier,Spokane,Rite Aid,WA,9120 North Division Street,99218,Rite Aid
+576,-122.93007,46.119315,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Longview,Longview Supercenter,WA,540 7th Ave,98632,Walmart
+577,-122.549467,45.772387,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Battle Ground,Battle Ground Supercenter,WA,1201 Sw 13th Avenue,98604,Walmart
+578,-122.983947,46.153058,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Longview,Longview Supercenter,WA,3715 Ocean Beach Hwy,98632,Walmart
+579,-122.640847,45.636374,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Vancouver,Vancouver Neighborhood Market,WA,2201 Grand Blvd,98661,Walmart
+580,-122.5233909,45.6695255,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Vancouver,Vancouver Supercenter,WA,14505 Ne Fourth Plain Blvd,98682,Walmart
+581,-122.562,45.6239,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Vancouver,Vancouver Supercenter,WA,221e Ne 104th Ave,98664,Walmart
+582,-122.761382,45.929074,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Woodland,Woodland Supercenter,WA,1486 Dike Access Rd,98674,Walmart
+583,-122.294,47.2491,https://www.riteaid.com/pharmacy/covid-qualifier,Milton,Rite Aid,WA,900 East Meridian  Suite 23,98354,Rite Aid
+584,-117.484,47.7401,https://www.riteaid.com/pharmacy/covid-qualifier,Spokane,Rite Aid,WA,9007 N Indian Trail Road,99208,Rite Aid
+585,-117.4,47.6281,https://www.riteaid.com/pharmacy/covid-qualifier,Spokane,Rite Aid,WA,810 East 29th Avenue,99203,Rite Aid
+586,-122.335,47.7951,https://www.riteaid.com/pharmacy/covid-qualifier,Edmonds,Rite Aid,WA,22515 Highway 99,98026,Rite Aid
+587,-122.579,47.3018,https://www.riteaid.com/pharmacy/covid-qualifier,Gig Harbor,Rite Aid,WA,"4818 Point Fosdick Dr.,NW",98335,Rite Aid
+588,-117.405,47.7681,https://www.riteaid.com/pharmacy/covid-qualifier,Spokane,Rite Aid,WA,12420 North Division Street,99218,Rite Aid
+589,-117.915214,48.55379,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Colville,Colville Supercenter,WA,810 North Highway,99114,Walmart
+590,-122.4762985,45.5948412,https://www.qfc.com/rx/covid-eligibility,Vancouver,Quality Food Center - Riverstone Marketplace,WA,3505 SE 192nd Ave,98683,QFC
+591,-122.367671,47.7913701,https://www.qfc.com/rx/covid-eligibility,Edmonds,Quality Food Center - Edmonds,WA,22828 100th Ave W,98020,QFC
+592,-122.7585114,48.0326263,https://www.qfc.com/rx/covid-eligibility,Hadlock,Quality Food Center - Port Hadlock,WA,1890 Irondale Rd,98339,QFC
+593,-123.0873291,48.0784899,https://www.qfc.com/rx/covid-eligibility,Sequim,Quality Food Center - Sequim,WA,990 E Washington St,98382,QFC
+594,-122.3641832,47.7659314,https://www.qfc.com/rx/covid-eligibility,Shoreline,Quality Food Center - Richmond Beach,WA,600 NW Richmond Beach Rd,98177,QFC
+595,-117.283,47.6702,https://www.riteaid.com/pharmacy/covid-qualifier,Spokane Valley,Rite Aid,WA,1443 North Argonne Road,99212,Rite Aid
+596,-122.1505361,47.1663737,https://www.fredmeyer.com/rx/covid-eligibility,Bonney Lake,Fred Meyer - Bonney Lake,WA,20901 Highway 410,98391,Fred Meyer
+597,-121.9906068,47.2004838,https://www.qfc.com/rx/covid-eligibility,Enumclaw,Quality Food Center - Enumclaw,WA,1009 Monroe Ave,98022,QFC
+598,-122.205405,47.3858154,https://www.fredmeyer.com/rx/covid-eligibility,Kent,Fred Meyer - Kent,WA,10201 Se 240Th St,98031,Fred Meyer
+599,-119.986003,46.31502,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Sunnyside,Sunnyside Supercenter,WA,2675 E Lincoln Ave,98944,Walmart
+600,-118.384132,46.033222,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,College Place,College Place Supercenter,WA,1700 Se Meadowbrook Blvd,99324,Walmart
+601,-119.159,46.2104,https://www.riteaid.com/pharmacy/covid-qualifier,Kennewick,Rite Aid,WA,101 North Ely Street,99336,Rite Aid
+602,-117.191347,47.666892,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Spokane Valley,Spokane Valley Supercenter,WA,15727 E Broadway Ave,99037,Walmart
+603,-122.669,47.5683,https://www.riteaid.com/pharmacy/covid-qualifier,Bremerton,Rite Aid,WA,4117 Kitsap Way,98312,Rite Aid
+604,-122.357,47.1538,https://www.riteaid.com/pharmacy/covid-qualifier,Puyallup,Rite Aid,WA,11220 Canyon Road East,98373,Rite Aid
+605,-122.17533,48.150446,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Arlington,Arlington Supercenter,WA,4010 172nd St Ne,98223,Walmart
+606,-122.139482,47.608956,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Bellevue,Bellevue Neighborhood Market,WA,15063 Main St,98007,Walmart
+607,-122.2558117,47.894532,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Everett,Everett Store,WA,11400 Highway 99,98204,Walmart
+608,-122.213722,47.914407,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Everett,Everett Supercenter,WA,1605 Se Everett Mall Way,98208,Walmart
+609,-122.299477,47.842328,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Lynnwood,Lynnwood Neighborhood Market,WA,17222 Highway 99,98037,Walmart
+610,-122.252455,47.848617,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Lynnwood,Lynnwood Store,WA,1400 164th St Sw,98087,Walmart
+611,-122.1885064,48.0789466,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Marysville,Marysville Supercenter,WA,8924 Quilceda Blvd,98271,Walmart
+612,-122.112545,48.055649,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Marysville,Marysville Supercenter,WA,8713 64th St Ne,98270,Walmart
+613,-122.662579,47.757032,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Poulsbo,Poulsbo Supercenter,WA,21200 Olhava Way Nw,98370,Walmart
+614,-122.658,48.2907,https://www.riteaid.com/pharmacy/covid-qualifier,Oak Harbor,Rite Aid,WA,31645 State Route 20,98277,Rite Aid
+615,-122.189,47.8779,https://www.riteaid.com/pharmacy/covid-qualifier,Mill Creek,Rite Aid,WA,"3202 132nd Street, S.E.",98012,Rite Aid
+616,-123.118,48.0797,https://www.riteaid.com/pharmacy/covid-qualifier,Sequim,Rite Aid,WA,520 West Washington Street,98382,Rite Aid
+617,-122.294,47.055,https://www.riteaid.com/pharmacy/covid-qualifier,Graham,Rite Aid,WA,22201 Meridian Avenue E,98338,Rite Aid
+618,-122.198,47.611,https://www.riteaid.com/pharmacy/covid-qualifier,Bellevue,Rite Aid,WA,120 106th Avenue NE,98004,Rite Aid
+619,-122.139,47.576,https://www.riteaid.com/pharmacy/covid-qualifier,Bellevue,Rite Aid,WA,15100 S.E. 38th Street,98006,Rite Aid
+620,-122.312,47.7763,https://www.riteaid.com/pharmacy/covid-qualifier,Shoreline,Rite Aid,WA,20330 Ballinger Way NE,98155,Rite Aid
+621,-122.033,47.5816,https://www.riteaid.com/pharmacy/covid-qualifier,Sammamish,Rite Aid,WA,3066 Issaquah Pine Lake Rd SE,98075,Rite Aid
+622,-122.197,47.4174,https://www.riteaid.com/pharmacy/covid-qualifier,Kent,Rite Aid,WA,"20518 108th Ave.,SE",98031,Rite Aid
+623,-122.33486,48.43565,https://www.riteaid.com/pharmacy/covid-qualifier,Mt. Vernon,Rite Aid,WA,412 East College Way,98273,Rite Aid
+624,-122.11,47.6707,https://www.riteaid.com/pharmacy/covid-qualifier,Redmond,Rite Aid,WA,17220 Redmond Way Northeast,98052,Rite Aid
+625,-122.217,47.4709,https://www.riteaid.com/pharmacy/covid-qualifier,Renton,Rite Aid,WA,"601 South Grady Way,Ste.P",98057,Rite Aid
+626,-122.526,47.2434,https://www.riteaid.com/pharmacy/covid-qualifier,Tacoma,Rite Aid,WA,1850 South Mildred Street,98465,Rite Aid
+627,-120.538,46.5853,https://www.riteaid.com/pharmacy/covid-qualifier,Yakima,Rite Aid,WA,2204-B W. Nob Hill Blvd.,98902,Rite Aid
+628,-122.221,47.319,https://www.riteaid.com/pharmacy/covid-qualifier,Auburn,Rite Aid,WA,1231 Auburn Way North,98002,Rite Aid
+629,-122.928,46.1442,https://www.riteaid.com/pharmacy/covid-qualifier,Longview,Rite Aid,WA,364 Triangle Shopping Center,98632,Rite Aid
+630,-122.247,47.3815,https://www.riteaid.com/pharmacy/covid-qualifier,Kent,Rite Aid,WA,105 Washington Avenue North,98032,Rite Aid
+631,-117.55851,47.645728,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Spokane,Spokane Supercenter,WA,1221 S Hayford Rd,99224,Walmart
+632,-117.402109,47.741455,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Spokane,Spokane Supercenter,WA,9212 N Colton St,99218,Walmart
+633,-117.445813,47.69912,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Spokane,Spokane Store,WA,2301 W Wellesley Ave,99205,Walmart
+634,-117.3377956,47.6584886,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Spokane Valley,Spokane Valley Supercenter,WA,5025 E Sprague Ave,99212,Walmart
+635,-122.516,47.2662,https://www.riteaid.com/pharmacy/covid-qualifier,Tacoma,Rite Aid,WA,1912 North Pearl Street,98406,Rite Aid
+636,-123.401,48.1066,https://www.riteaid.com/pharmacy/covid-qualifier,Port Angeles,Rite Aid,WA,1940 E 1st Street #110,98362,Rite Aid
+637,-122.365,47.7651,https://www.riteaid.com/pharmacy/covid-qualifier,Shoreline,Rite Aid,WA,655 NW Richmond Beach Road,98177,Rite Aid
+638,-119.274,46.2932,https://www.riteaid.com/pharmacy/covid-qualifier,Richland,Rite Aid,WA,1549 George Washington Way,99354,Rite Aid
+639,-122.434,47.1926,https://www.riteaid.com/pharmacy/covid-qualifier,Tacoma,Rite Aid,WA,7041 Pacific Avenue,98408,Rite Aid
+640,-122.469,48.7328,https://www.riteaid.com/pharmacy/covid-qualifier,Bellingham,Rite Aid,WA,220 36th Street,98225,Rite Aid
+641,-122.335,47.8214,https://www.riteaid.com/pharmacy/covid-qualifier,Lynnwood,Rite Aid,WA,"7500-A 196th St.,SW",98036,Rite Aid
+642,-122.178,48.0507,https://www.riteaid.com/pharmacy/covid-qualifier,Marysville,Rite Aid,WA,251 Marysville Mall,98270,Rite Aid
+643,-122.482164,48.801663,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Bellingham,Bellingham Store,WA,4420 Meridian St,98226,Walmart
+644,-122.346325,48.441695,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Mount Vernon,Mount Vernon Supercenter,WA,2301 Freeway Dr,98273,Walmart
+645,-122.6619987,48.2888983,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Oak Harbor,Oak Harbor Store,WA,1250 Sw Erie St,98277,Walmart
+646,-123.362177,48.111047,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Port Angeles,Port Angeles Supercenter,WA,3411 E Kolonels Way,98362,Walmart
+647,-123.134232,48.080129,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Sequim,Sequim Supercenter,WA,1110 W Washington St,98382,Walmart
+648,-123.815,46.9756,https://www.riteaid.com/pharmacy/covid-qualifier,Aberdeen,Rite Aid,WA,301 East Wishkah Street,98520,Rite Aid
+649,-122.399,47.0544,https://www.riteaid.com/pharmacy/covid-qualifier,Spanaway,Rite Aid,WA,22311 Mountain Highway East,98387,Rite Aid
+650,-122.293,47.1401,https://www.riteaid.com/pharmacy/covid-qualifier,Puyallup,Rite Aid,WA,12811 Meridian Street East,98373,Rite Aid
+651,-119.553,47.3175,https://www.riteaid.com/pharmacy/covid-qualifier,Ephrata,Rite Aid,WA,250 Basin Street SW,98823,Rite Aid
+652,-122.982,46.7294,https://www.riteaid.com/pharmacy/covid-qualifier,Centralia,Rite Aid,WA,1200 Harrison Avenue,98531,Rite Aid
+653,-120.548,46.986,https://www.riteaid.com/pharmacy/covid-qualifier,Ellensburg,Rite Aid,WA,700 South Main Street,98926,Rite Aid
+654,-122.534,45.6198,https://www.riteaid.com/pharmacy/covid-qualifier,Vancouver,Rite Aid,WA,13511 SE Third Way,98684,Rite Aid
+655,-122.823,47.453,https://www.riteaid.com/pharmacy/covid-qualifier,Belfair,Rite Aid,WA,23940 NE State Route 3,98528,Rite Aid
+656,-117.41112,47.71103,https://www.riteaid.com/pharmacy/covid-qualifier,Spokane,Rite Aid,WA,5840 North Division Street,99208,Rite Aid
+657,-122.352,48.24,https://www.riteaid.com/pharmacy/covid-qualifier,Stanwood,Rite Aid,WA,26817 88th Avenue NW,98292,Rite Aid
+658,-122.597,46.9366,https://www.riteaid.com/pharmacy/covid-qualifier,Yelm,Rite Aid,WA,909 East Yelm Avenue,98597,Rite Aid
+659,-123.85358,46.97521,https://www.riteaid.com/pharmacy/covid-qualifier,Hoquiam,Rite Aid,WA,3130 Simpson Avenue,98550,Rite Aid
+660,-122.73383,48.99053,https://www.riteaid.com/pharmacy/covid-qualifier,Blaine,Rite Aid,WA,1195 Boblett Street,98230,Rite Aid
+661,-122.506,45.6433,https://www.riteaid.com/pharmacy/covid-qualifier,Vancouver,Rite Aid,WA,2800 NE 162nd Avenue,98682,Rite Aid
+662,-122.177,47.5038,https://www.riteaid.com/pharmacy/covid-qualifier,Renton,Rite Aid,WA,3116 NE Sunset Boulevard,98056,Rite Aid
+663,-122.146,47.1675,https://www.riteaid.com/pharmacy/covid-qualifier,Bonney Lake,Rite Aid,WA,21302 State Route 410 East,98391,Rite Aid
+664,-117.242,47.6572,https://www.riteaid.com/pharmacy/covid-qualifier,Spokane Valley,Rite Aid,WA,12222 East Sprague Avenue,99206,Rite Aid
+665,-122.171,47.5752,https://www.riteaid.com/pharmacy/covid-qualifier,Bellevue,Rite Aid,WA,3905 Factoria Mall SE,98006,Rite Aid
+666,-122.218,47.8509,https://www.riteaid.com/pharmacy/covid-qualifier,Mill Creek,Rite Aid,WA,16222 Bothell-Everett Highway,98012,Rite Aid
+667,-120.480337,46.601509,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Yakima,Yakima Supercenter,WA,1600 E Chestnut Ave,98901,Walmart
+668,-120.597175,46.583014,https://www.walmart.com/pharmacy/clinical-services/immunization/scheduled?imzType=covid,Yakima,Yakima Supercenter,WA,6600 W Nob Hill Blvd,98908,Walmart
+669,-122.631,47.5188,https://www.riteaid.com/pharmacy/covid-qualifier,Port Orchard,Rite Aid,WA,3282 Bethel Road SE,98366,Rite Aid
+670,-119.244,46.2275,https://www.riteaid.com/pharmacy/covid-qualifier,Kennewick,Rite Aid,WA,1901 North Steptoe Street,99336,Rite Aid
+671,-117.368,47.6282,https://www.riteaid.com/pharmacy/covid-qualifier,Spokane,Rite Aid,WA,2929 East 29th Avenue,99223,Rite Aid
+672,-119.27,47.131,https://www.riteaid.com/pharmacy/covid-qualifier,Moses Lake,Rite Aid,WA,500 South Pioneer Way,98837,Rite Aid
+673,-122.94,47.048,https://www.riteaid.com/pharmacy/covid-qualifier,Olympia,Rite Aid,WA,305 Cooper Point Road NW,98502,Rite Aid
+674,-121.976,47.8605,https://www.riteaid.com/pharmacy/covid-qualifier,Monroe,Rite Aid,WA,18906 State Route 2,98272,Rite Aid
+675,-122.766,47.0565,https://www.riteaid.com/pharmacy/covid-qualifier,Lacey,Rite Aid,WA,8230 Martin Way East,98516,Rite Aid
+676,-117.421,47.6581,https://www.riteaid.com/pharmacy/covid-qualifier,Spokane,Rite Aid,WA,112 North Howard St Suite 115,99201,Rite Aid
+677,-122.435,47.1133,https://www.riteaid.com/pharmacy/covid-qualifier,Tacoma,Rite Aid,WA,15801 Pacific Avenue,98444,Rite Aid
+678,-122.689,47.6506,https://www.riteaid.com/pharmacy/covid-qualifier,Silverdale,Rite Aid,WA,2860 NW Bucklin Hill Road,98383,Rite Aid
+679,-122.321,47.6201,https://www.riteaid.com/pharmacy/covid-qualifier,Seattle,Rite Aid,WA,201 Broadway East,98102,Rite Aid
+680,-122.286,47.8918,https://www.riteaid.com/pharmacy/covid-qualifier,Mukilteo,Rite Aid,WA,11700 Mukilteo Speedway # 500,98275,Rite Aid
+681,-122.226,47.542,https://www.riteaid.com/pharmacy/covid-qualifier,Mercer Island,Rite Aid,WA,8441 SE 68th Street,98040,Rite Aid
+682,-122.519,47.6358,https://www.riteaid.com/pharmacy/covid-qualifier,Bainbridge Island,Rite Aid,WA,301 High School Road NE,98110,Rite Aid
+683,-123.436,48.1137,https://www.riteaid.com/pharmacy/covid-qualifier,Port Angeles,Rite Aid,WA,621 South Lincoln St.,98362,Rite Aid
+684,-122.279,47.7526,https://www.riteaid.com/pharmacy/covid-qualifier,Lake Forest Park,Rite Aid,WA,"17171 Bothell Way, Ne, Ste.150",98155,Rite Aid
+685,-122.275,47.1918,https://www.riteaid.com/pharmacy/covid-qualifier,Puyallup,Rite Aid,WA,1323 East Main Avenue,98372,Rite Aid
+686,-122.107,47.9988,https://www.riteaid.com/pharmacy/covid-qualifier,Lake Stevens,Rite Aid,WA,"303 91st Avenue, NE Ste D401",98258,Rite Aid
+687,-117.448,47.7007,https://www.riteaid.com/pharmacy/covid-qualifier,Spokane,Rite Aid,WA,2215A West Wellesley Avenue,99205,Rite Aid
+688,-122.613,48.51,https://www.riteaid.com/pharmacy/covid-qualifier,Anacortes,Rite Aid,WA,1517 Commercial Ave.,98221,Rite Aid
+689,-122.895,46.1428,https://www.riteaid.com/pharmacy/covid-qualifier,Kelso,Rite Aid,WA,230 Kelso Drive,98626,Rite Aid
+690,-122.086,47.9129,https://www.riteaid.com/pharmacy/covid-qualifier,Snohomish,Rite Aid,WA,205 Pine Avenue,98290,Rite Aid
+691,-122.511,47.1666,https://www.riteaid.com/pharmacy/covid-qualifier,Lakewood,Rite Aid,WA,5700 100th Street SW Ste 100,98499,Rite Aid
+692,-122.291,47.6903,https://www.riteaid.com/pharmacy/covid-qualifier,Seattle,Rite Aid,WA,8500 35th Avenue NE,98115,Rite Aid
+693,-122.64088,47.73956,https://www.riteaid.com/pharmacy/covid-qualifier,Poulsbo,Rite Aid,WA,"19475 7th Avenue, NE",98370,Rite Aid
+694,-122.18,48.1001,https://www.riteaid.com/pharmacy/covid-qualifier,Marysville,Rite Aid,WA,3733 116th Street NE,98271,Rite Aid
+695,-122.25,47.7589,https://www.riteaid.com/pharmacy/covid-qualifier,Kenmore,Rite Aid,WA,"18022 68th Avenue, NE",98028,Rite Aid
+696,-122.113,47.3573,https://www.riteaid.com/pharmacy/covid-qualifier,Covington,Rite Aid,WA,17125 Southeast 272nd Street,98042,Rite Aid
+697,-120.522,46.5989,https://www.riteaid.com/pharmacy/covid-qualifier,Yakima,Rite Aid,WA,12 N 9th Avenue,98902,Rite Aid
+698,-122.299,47.5792,https://www.riteaid.com/pharmacy/covid-qualifier,Seattle,Rite Aid,WA,2707 Rainier Avenue South,98144,Rite Aid
+699,-122.477,48.7508,https://www.riteaid.com/pharmacy/covid-qualifier,Bellingham,Rite Aid,WA,1400 Cornwall Avenue,98225,Rite Aid
+700,-122.834,47.0415,https://www.riteaid.com/pharmacy/covid-qualifier,Lacey,Rite Aid,WA,691 Sleater Kinney Road SE,98503,Rite Aid
+701,-122.152,47.7545,https://www.riteaid.com/pharmacy/covid-qualifier,Woodinville,Rite Aid,WA,14035 NE Woodinville-Duvall,98072,Rite Aid
+702,-119.509,48.4175,https://www.riteaid.com/pharmacy/covid-qualifier,Omak,Rite Aid,WA,609 Omache Drive,98841,Rite Aid
+703,-118.306,46.0752,https://www.riteaid.com/pharmacy/covid-qualifier,Walla Walla,Rite Aid,WA,2028 East Isaacs Avenue,99362,Rite Aid
+704,-119.117,46.2404,https://www.riteaid.com/pharmacy/covid-qualifier,Pasco,Rite Aid,WA,1308 North 20th Avenue,99301,Rite Aid
+705,-122.593,48.8465,https://www.riteaid.com/pharmacy/covid-qualifier,Ferndale,Rite Aid,WA,5655 3rd Avenue,98248,Rite Aid
+706,-122.334,45.5779,https://www.riteaid.com/pharmacy/covid-qualifier,Washougal,Rite Aid,WA,"3307 Evergreen Way, Bldg 4",98671,Rite Aid
+707,-122.366,47.5211,https://www.riteaid.com/pharmacy/covid-qualifier,Seattle,Rite Aid,WA,2600 SW Barton Street Ste H1,98126,Rite Aid
+708,-122.178,47.7102,https://www.riteaid.com/pharmacy/covid-qualifier,Kirkland,Rite Aid,WA,12421 Totem Lake Boulevard NE,98034,Rite Aid
+709,-122.302,47.0965,https://www.riteaid.com/pharmacy/covid-qualifier,Puyallup,Rite Aid,WA,9502 176th Street East,98375,Rite Aid
+710,-122.537,47.2228,https://www.riteaid.com/pharmacy/covid-qualifier,University Place,Rite Aid,WA,3840 Bridgeport Way West,98466,Rite Aid
+711,-121.982,47.1995,https://www.riteaid.com/pharmacy/covid-qualifier,Enumclaw,Rite Aid,WA,232 Roosevelt Avenue,98022,Rite Aid
+712,-122.055,47.5455,https://www.riteaid.com/pharmacy/covid-qualifier,Issaquah,Rite Aid,WA,1065 N.W. Gilman Blvd.,98027,Rite Aid
+713,-121.974,48.0832,https://www.riteaid.com/pharmacy/covid-qualifier,Granite Falls,Rite Aid,WA,608 W. Stanley Street,98252,Rite Aid
+714,-122.242,47.9068,https://www.riteaid.com/pharmacy/covid-qualifier,Everett,Rite Aid,WA,10103 Evergreen Way,98204,Rite Aid
+715,-122.959,46.6582,https://www.riteaid.com/pharmacy/covid-qualifier,Chehalis,Rite Aid,WA,551 South Market Boulevard,98532,Rite Aid
+716,-122.387,47.5558,https://www.riteaid.com/pharmacy/covid-qualifier,Seattle,Rite Aid,WA,5217 California Avenue SW,98136,Rite Aid
+717,-122.234,47.5838,https://www.riteaid.com/pharmacy/covid-qualifier,Mercer Island,Rite Aid,WA,3023 78th Ave SE,98040,Rite Aid
+718,-122.215,47.2955,https://www.riteaid.com/pharmacy/covid-qualifier,Auburn,Rite Aid,WA,1509 Auburn Way South,98002,Rite Aid
+719,-122.362,47.3007,https://www.riteaid.com/pharmacy/covid-qualifier,Federal Way,Rite Aid,WA,2131 SW 336th Street,98023,Rite Aid
+720,-122.154,47.4454,https://www.riteaid.com/pharmacy/covid-qualifier,Renton,Rite Aid,WA,17615  140th Avenue SE,98058,Rite Aid
+721,-122.485,48.935,https://www.riteaid.com/pharmacy/covid-qualifier,Lynden,Rite Aid,WA,8090 Guide Meridian Road.,98264,Rite Aid
+722,-120.482,46.5652,https://www.riteaid.com/pharmacy/covid-qualifier,Union Gap,Rite Aid,WA,2519 Main Street,98903,Rite Aid
+723,-122.313,47.315,https://www.riteaid.com/pharmacy/covid-qualifier,Federal Way,Rite Aid,WA,32015 Pacific Hwy. South,98003,Rite Aid
+724,-122.9769775,46.67683669,https://www.walgreens.com/findcare/vaccination/covid-19,CHEHALIS,Walgreen Drug Store,WA,1610 NW LOUISIANA AVE,98532,Walgreens
+725,-122.9614001,46.14714548,https://www.walgreens.com/findcare/vaccination/covid-19,LONGVIEW,Walgreen Drug Store,WA,2939 OCEAN BEACH HWY,98632,Walgreens
+726,-122.5076423,45.63697258,https://www.walgreens.com/findcare/vaccination/covid-19,VANCOUVER,Walgreen Drug Store,WA,1900 NE 162ND AVE,98684,Walgreens
+727,-122.6035307,45.66829461,https://www.walgreens.com/findcare/vaccination/covid-19,VANCOUVER,Walgreen Drug Store,WA,6708 NE 63RD ST,98661,Walgreens
+728,-122.6706961,45.63996959,https://www.walgreens.com/findcare/vaccination/covid-19,VANCOUVER,Walgreen Drug Store,WA,2521 MAIN ST,98660,Walgreens
+729,-122.6577012,45.69256577,https://www.walgreens.com/findcare/vaccination/covid-19,VANCOUVER,Walgreen Drug Store,WA,9812 NE HIGHWAY 99,98665,Walgreens
+730,-122.6511145,45.7220237,https://www.walgreens.com/findcare/vaccination/covid-19,VANCOUVER,Walgreen Drug Store,WA,2100 NE 139TH ST,98686,Walgreens
+731,-122.5555992,45.66697686,https://www.walgreens.com/findcare/vaccination/covid-19,VANCOUVER,Walgreen Drug Store,WA,6105 NE 114TH AVE,98662,Walgreens
+732,-122.5052903,45.68477675,https://www.walgreens.com/findcare/vaccination/covid-19,VANCOUVER,Walgreen Drug Store,WA,8511 NE 162ND AVE,98682,Walgreens
+733,-122.5331888,45.61755601,https://www.walgreens.com/findcare/vaccination/covid-19,VANCOUVER,Walgreen Drug Store,WA,13503 SE MILL PLAIN BLVD,98684,Walgreens
+734,-122.5725626,45.62146104,https://www.walgreens.com/findcare/vaccination/covid-19,VANCOUVER,Walgreen Drug Store,WA,9714 E MILL PLAIN BLVD,98664,Walgreens
+735,-122.5031935,45.60712833,https://www.walgreens.com/findcare/vaccination/covid-19,VANCOUVER,Walgreen Drug Store,WA,1905 SE 164TH AVE,98683,Walgreens
+736,-122.6000679,45.64336854,https://www.walgreens.com/findcare/vaccination/covid-19,VANCOUVER,Walgreen Drug Store,WA,2903 NE ANDRESEN RD,98661,Walgreens
+737,-122.7628135,47.05651043,https://www.walgreens.com/findcare/vaccination/covid-19,LACEY,Walgreen Drug Store,WA,8333 MARTIN WAY E,98516,Walgreens
+738,-122.9371681,47.03453385,https://www.walgreens.com/findcare/vaccination/covid-19,OLYMPIA,Walgreen Drug Store,WA,1510 COOPER POINT RD SW,98502,Walgreens
+739,-122.916195,47.00042034,https://www.walgreens.com/findcare/vaccination/covid-19,TUMWATER,Walgreen Drug Store,WA,702 TROSPER RD SW,98512,Walgreens
+740,-122.6281444,47.62174775,https://www.walgreens.com/findcare/vaccination/covid-19,BREMERTON,Walgreen Drug Store,WA,6432 STATE HIGHWAY 303 NE,98311,Walgreens
+741,-122.6302962,47.59514844,https://www.walgreens.com/findcare/vaccination/covid-19,BREMERTON,Walgreen Drug Store,WA,3333 WHEATON WAY,98310,Walgreens
+742,-122.6670572,47.56787832,https://www.walgreens.com/findcare/vaccination/covid-19,BREMERTON,Walgreen Drug Store,WA,3929 KITSAP WAY,98312,Walgreens
+743,-122.3463882,47.47078985,https://www.walgreens.com/findcare/vaccination/covid-19,BURIEN,Walgreen Drug Store,WA,14656 AMBAUM BLVD SW,98166,Walgreens
+744,-122.6304593,47.52001288,https://www.walgreens.com/findcare/vaccination/covid-19,PORT ORCHARD,Walgreen Drug Store,WA,3099 BETHEL RD SE,98366,Walgreens
+745,-122.4954671,47.25571562,https://www.walgreens.com/findcare/vaccination/covid-19,TACOMA,Walgreen Drug Store,WA,4315 6TH AVE,98406,Walgreens
+746,-122.4637439,47.25528523,https://www.walgreens.com/findcare/vaccination/covid-19,TACOMA,Walgreen Drug Store,WA,2024 6TH AVE,98403,Walgreens
+747,-122.5164814,47.28127741,https://www.walgreens.com/findcare/vaccination/covid-19,TACOMA,Walgreen Drug Store,WA,3540 N PEARL ST,98407,Walgreens
+748,-122.5376337,47.23574559,https://www.walgreens.com/findcare/vaccination/covid-19,UNIVERSITY PLACE,Walgreen Drug Store,WA,2650 BRIDGEPORT WAY W,98466,Walgreens
+749,-122.5365738,47.21399048,https://www.walgreens.com/findcare/vaccination/covid-19,UNIVERSITY PLACE,Walgreen Drug Store,WA,7451 CIRQUE DR W,98467,Walgreens
