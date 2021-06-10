@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="pharmacy" type="id" />
+    <item name="address" type="id" />
+    <item name="phonenumber" type="id" />
+    <item name="website" type="id" />
+</resources>
