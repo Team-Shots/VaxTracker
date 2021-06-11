@@ -12,15 +12,11 @@ import android.location.Location
 import android.os.Bundle
 import android.os.Looper
 import android.util.Log
-import android.view.View
-import android.widget.AdapterView.OnItemClickListener
 import android.widget.Button
-import android.widget.ListView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.core.view.get
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.*
 import com.google.android.gms.maps.model.LatLng
@@ -32,6 +28,7 @@ import java.util.*
 
 class LocationsActivity : AppCompatActivity() {
 
+    // location request code for location permission requests
     private val locReqCode = 10001
 
     // variables to compare distance between locations
@@ -46,25 +43,23 @@ class LocationsActivity : AppCompatActivity() {
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     // variable for location request object
     private lateinit var locationRequest: LocationRequest
+
     // variable for location call back object
     var locationCallback: LocationCallback = object : LocationCallback() {
         override fun onLocationResult(locationResult: LocationResult) {
             for (location in locationResult.locations) {
-
                 // stores devices' current latitude and longitude
                 currLat = location.latitude
                 currLong = location.longitude
 
                 // runs function to find closest locations
                 findClosestLocations()
-
-
             }
             super.onLocationResult(locationResult)
         }
     }
 
-
+    // onCreate of activity
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_locations)
@@ -80,22 +75,6 @@ class LocationsActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
-
-//        val loc1Button: Button = findViewById(R.id.locationButton1)
-//        loc1Button.setOnClickListener {
-//            val intent = Intent(this, DetailsActivity::class.java)
-//            startActivity(intent1)
-//        }
-//        val loc2Button: Button = findViewById(R.id.locationButton2)
-//        loc2Button.setOnClickListener {
-//            val intent = Intent(this, DetailsActivity::class.java)
-//            startActivity(intent2)
-//        }
-//        val loc3Button: Button = findViewById(R.id.locationButton3)
-//        loc3Button.setOnClickListener {
-//            val intent = Intent(this, DetailsActivity::class.java)
-//            startActivity(intent3)
-//        }
     }
 
     // onStart of activity, starts location updates if permission was granted
@@ -155,6 +134,7 @@ class LocationsActivity : AppCompatActivity() {
         }
     }
 
+    // returns result of permission request
     override fun onRequestPermissionsResult(
         requestCode: Int,
         permissions: Array<String?>,
@@ -188,6 +168,7 @@ class LocationsActivity : AppCompatActivity() {
         val coder = Geocoder(context)
         val address: List<Address>?
         var loc: LatLng? = null
+        Log.d("Test", strAddress + "")
         try {
             // May throw an IOException
             address = coder.getFromLocationName(strAddress, 5)
@@ -203,6 +184,7 @@ class LocationsActivity : AppCompatActivity() {
         return loc
     }
 
+    // goes through the database, calculates distance for each location and sorts the closest locations
     fun findClosestLocations() {
 
         // get the locations database
@@ -258,46 +240,42 @@ class LocationsActivity : AppCompatActivity() {
 
         // after locations are sorted, runs set views function
         setLocationViews(locationsArray)
-        // get and set the xml IDs
-
     }
 
+    // sets text, listener and intents for each location button
     fun setLocationViews(locationsArray: MutableList<dbLocation>) {
-
-
+        // grabs button views to modify
         val loc1 = findViewById<Button>(R.id.locationButton1)
         val loc2 = findViewById<Button>(R.id.locationButton2)
         val loc3 = findViewById<Button>(R.id.locationButton3)
-
+        // sets button texts to display name and distance of each location
         loc1.text = locationsArray[0].locName + ": " + locationsArray[0].dist + " miles away"
         loc2.text = locationsArray[1].locName + ": " + locationsArray[1].dist + " miles away"
         loc3.text = locationsArray[2].locName + ": " + locationsArray[2].dist + " miles away"
-
 
         // inserts top 3 location objects into the buttons intent
         val loc1Button: Button = findViewById(R.id.locationButton1)
         loc1Button.setOnClickListener {
             val intent = Intent(this, DetailsActivity::class.java)
-            intent.putExtra("EXTRA_SELECTED", locationsArray[0])
+            intent.putExtra("EXTRA_LOCATION", locationsArray[0])
             startActivity(intent)
         }
         val loc2Button: Button = findViewById(R.id.locationButton2)
         loc2Button.setOnClickListener {
             val intent = Intent(this, DetailsActivity::class.java)
-            intent.putExtra("EXTRA_SELECTED", locationsArray[1])
+            intent.putExtra("EXTRA_LOCATION", locationsArray[1])
             startActivity(intent)
         }
         val loc3Button: Button = findViewById(R.id.locationButton3)
         loc3Button.setOnClickListener {
             val intent = Intent(this, DetailsActivity::class.java)
-            intent.putExtra("EXTRA_SELECTED", locationsArray[2])
+            intent.putExtra("EXTRA_LOCATION", locationsArray[2])
             startActivity(intent)
         }
 
+        // stops the location updates after all required functions are finished
         stopLocationUpdates()
-
     }
-
 }
 
 // class object for location aqcuired from the database

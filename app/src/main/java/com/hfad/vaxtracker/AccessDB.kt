@@ -40,7 +40,7 @@ class AccessDB : Activity() {
                 //pharmacy.setTEXT(pharmacyTEXT); //Set pharmacy name from db
 
                 //Populate location address
-                val address = findViewById<TextView>(R.id.address)
+                val address = findViewById<TextView>(R.id.location_name)
                 //address.setTEXT(addressTEXT);
 
                 //Populate location phone number
