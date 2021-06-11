@@ -20,11 +20,14 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.core.view.get
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.*
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.tasks.Task
 import java.io.IOException
+import java.io.Serializable
+import java.util.*
 
 
 class LocationsActivity : AppCompatActivity() {
@@ -34,8 +37,8 @@ class LocationsActivity : AppCompatActivity() {
     // variables to compare distance between locations
     private var currLat = 0.0
     private var currLong = 0.0
-    private var locLat = 37.3749
-    private var locLang = -121.9555
+    private var locLat = 0.0
+    private var locLang = 0.0
     // variable to store results of distance calculation
     private var results = FloatArray(3)
 
@@ -47,29 +50,14 @@ class LocationsActivity : AppCompatActivity() {
     var locationCallback: LocationCallback = object : LocationCallback() {
         override fun onLocationResult(locationResult: LocationResult) {
             for (location in locationResult.locations) {
-                // logs for testing location update values
-                Log.d("LocationsActivity", "onLocationResult: " + location.toString())
-                Log.println(Log.ASSERT, "LocationsActivity", "onLocationResult: " + location.toString())
+
                 // stores devices' current latitude and longitude
                 currLat = location.latitude
                 currLong = location.longitude
 
-                // distance between is calculated between the 2 points and stored into results array as a float
-                Location.distanceBetween(currLat, currLong, locLat, locLang, results)
-
-                // stores results value into distance variable
-                val distance = results[0]
-                Log.d("Dist", "Distance in meters: " + distance)
-
-                // distance is calculated in meters, this converts distance to miles
-                val miles = distance * 0.00062137
-                Log.d("Dist", "Distance in Miles: " + miles)
-
                 // runs function to find closest locations
                 findClosestLocations()
 
-                // converts address into lat/long values and stores it into an object
-                val testAddress = getLocationFromAddress(applicationContext,"4401 4th Avenue South, Seattle, Washington 98134")
 
             }
             super.onLocationResult(locationResult)
@@ -78,8 +66,6 @@ class LocationsActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
-
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_locations)
 
@@ -89,28 +75,27 @@ class LocationsActivity : AppCompatActivity() {
         // initializes/creates location request
         createLocationRequest()
 
-
-        // creates OnClickListener for the listview options
-        val itemClickListener =
-            OnItemClickListener { listView, itemView, position, id ->
-                val intent = Intent(this, DetailsActivity::class.java)
-                startActivity(intent)
-            }
-
-        // adds the listener to the locations listview
-        val listView = findViewById<View>(R.id.list_locations) as ListView
-        listView.onItemClickListener = itemClickListener
-
-
-
-
-
         val btnBackToFirstPage: Button = findViewById(R.id.newZipButton)
         btnBackToFirstPage.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 
+//        val loc1Button: Button = findViewById(R.id.locationButton1)
+//        loc1Button.setOnClickListener {
+//            val intent = Intent(this, DetailsActivity::class.java)
+//            startActivity(intent1)
+//        }
+//        val loc2Button: Button = findViewById(R.id.locationButton2)
+//        loc2Button.setOnClickListener {
+//            val intent = Intent(this, DetailsActivity::class.java)
+//            startActivity(intent2)
+//        }
+//        val loc3Button: Button = findViewById(R.id.locationButton3)
+//        loc3Button.setOnClickListener {
+//            val intent = Intent(this, DetailsActivity::class.java)
+//            startActivity(intent3)
+//        }
     }
 
     // onStart of activity, starts location updates if permission was granted
@@ -220,24 +205,106 @@ class LocationsActivity : AppCompatActivity() {
 
     fun findClosestLocations() {
 
-        /* psuedo code
+        // get the locations database
+        val helper = VaxTrackerDatabaseHelper(applicationContext)
+        var db = helper.readableDatabase
+        var cursor = db.rawQuery("SELECT * FROM LOCATIONS", null)
 
-        get the locations database
+        // list stores locations with distances
+        var locationsArray: MutableList<dbLocation> = mutableListOf()
 
-        store top 3 locations in an array
+        cursor.moveToFirst()
+        // goes through each location in the database
+        for (i in 0 until cursor.count) {
 
-        for each loop
-            goes through each location in the database
-            use getLocationFromAddress() to convert address to lat and long values
-            stores the lat and long vals
+            // converts location address to lat and long values
+            val convertedAddress = getLocationFromAddress(applicationContext, cursor.getString(2))
+            // stores the lat and long vals
+            if (convertedAddress != null) {
+                locLat = convertedAddress.latitude
+                locLang = convertedAddress.longitude
+            }
+
+            // gets distance between the location and user
             Location.distanceBetween(currLat, currLong, locLat, locLang, results)
-            if distance is smaller than any of the top 3 current locations, replace the location
 
-        after 3 locations are found
-        get and set the xml IDs
+            // stores distance in miles
+            val miles = results[0] * 0.00062137
 
-         */
+            // create location object using calculated distance
+            val dbLocationObj = dbLocation(
+                cursor.getString(1),
+                cursor.getString(2),
+                cursor.getString(3),
+                cursor.getString(4),
+                miles
+            )
+
+            // addres location object to the array
+            locationsArray.add(dbLocationObj)
+
+            // moves cursor to next object in the database
+            cursor.moveToNext()
+        }
+
+        // sorts the locations list
+        locationsArray.sortBy { it.dist }
+        // goes through each location in the list
+        // formats distance and logs each location
+        for (j in locationsArray) {
+            j.dist = String.format("%.2f", j.dist).toDouble()
+            Log.d("Sorted List", j.locName + ": " + j.dist + " miles away")
+        }
+
+        // after locations are sorted, runs set views function
+        setLocationViews(locationsArray)
+        // get and set the xml IDs
 
     }
 
+    fun setLocationViews(locationsArray: MutableList<dbLocation>) {
+
+
+        val loc1 = findViewById<Button>(R.id.locationButton1)
+        val loc2 = findViewById<Button>(R.id.locationButton2)
+        val loc3 = findViewById<Button>(R.id.locationButton3)
+
+        loc1.text = locationsArray[0].locName + ": " + locationsArray[0].dist + " miles away"
+        loc2.text = locationsArray[1].locName + ": " + locationsArray[1].dist + " miles away"
+        loc3.text = locationsArray[2].locName + ": " + locationsArray[2].dist + " miles away"
+
+
+        // inserts top 3 location objects into the buttons intent
+        val loc1Button: Button = findViewById(R.id.locationButton1)
+        loc1Button.setOnClickListener {
+            val intent = Intent(this, DetailsActivity::class.java)
+            intent.putExtra("EXTRA_SELECTED", locationsArray[0])
+            startActivity(intent)
+        }
+        val loc2Button: Button = findViewById(R.id.locationButton2)
+        loc2Button.setOnClickListener {
+            val intent = Intent(this, DetailsActivity::class.java)
+            intent.putExtra("EXTRA_SELECTED", locationsArray[1])
+            startActivity(intent)
+        }
+        val loc3Button: Button = findViewById(R.id.locationButton3)
+        loc3Button.setOnClickListener {
+            val intent = Intent(this, DetailsActivity::class.java)
+            intent.putExtra("EXTRA_SELECTED", locationsArray[2])
+            startActivity(intent)
+        }
+
+        stopLocationUpdates()
+
+    }
+
+}
+
+// class object for location aqcuired from the database
+class dbLocation(name: String, address: String, phone: String , website: String, distance: Double) : Serializable {
+    val locName = name
+    val locAddress = address
+    val locPhone = phone
+    val locWebsite = website
+    var dist = distance
 }

@@ -22,14 +22,14 @@
         android:id="@+id/newZipButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="90dp"
         android:layout_marginBottom="84dp"
         android:text="@string/new_zip"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/list_locations" />
+        app:layout_constraintTop_toBottomOf="@+id/locationButton3" />
 
     <TextView
         android:id="@+id/displayLocationsTextView"
@@ -54,14 +54,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/displayLocationsTextView" />
 
-    <ListView
-        android:id="@+id/list_locations"
-        android:layout_width="322dp"
-        android:layout_height="351dp"
-        android:entries="@array/found_locations"
+    <Button
+        android:id="@+id/locationButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/finding_locations"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/currentLocationTextView" />
+
+    <Button
+        android:id="@+id/locationButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/finding_locations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationButton1" />
+
+    <Button
+        android:id="@+id/locationButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/finding_locations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationButton2" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

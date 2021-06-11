@@ -25,10 +25,6 @@
     <string name="ScheduleOnline"> 🌎 Schedule Appointment Online</string>
     <string name="PhoneNumber"> 📞 555-555-5555</string>
 
-    <string-array name="found_locations">
-        <item>Loc 1</item>
-        <item>Loc 2</item>
-        <item>Loc 3</item>
-    </string-array>
+    <string name="finding_locations">Finding Nearest Locations...</string>
 
 </resources>
