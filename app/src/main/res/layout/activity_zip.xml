@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LocationsActivity">
+    tools:context=".ZipActivity">
 
     <ProgressBar
-        android:id="@+id/progressBar0"
+        android:id="@+id/progressBarZip0"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="358dp"
         android:layout_height="53dp"
@@ -24,15 +24,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
         android:layout_marginBottom="84dp"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
         android:text="@string/new_zip"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/locationButton3" />
+        app:layout_constraintTop_toBottomOf="@+id/locationZipButton3" />
 
     <TextView
-        android:id="@+id/displayLocationsTextView"
+        android:id="@+id/displayLocationsZipTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -40,10 +42,10 @@
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progressBar0" />
+        app:layout_constraintTop_toBottomOf="@+id/progressBarZip0" />
 
     <TextView
-        android:id="@+id/currentLocationTextView"
+        android:id="@+id/currentZipLocationTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="486dp"
@@ -52,39 +54,45 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/displayLocationsTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/displayLocationsZipTextView" />
 
     <Button
-        android:id="@+id/locationButton1"
+        android:id="@+id/locationZipButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
         android:text="@string/finding_locations"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/currentLocationTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/currentZipLocationTextView" />
 
     <Button
-        android:id="@+id/locationButton2"
+        android:id="@+id/locationZipButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
         android:text="@string/finding_locations"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/locationButton1" />
+        app:layout_constraintTop_toBottomOf="@+id/locationZipButton1" />
 
     <Button
-        android:id="@+id/locationButton3"
+        android:id="@+id/locationZipButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
         android:text="@string/finding_locations"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/locationButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/locationZipButton2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

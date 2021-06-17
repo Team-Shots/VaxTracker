@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/welcomeTextView"
         android:layout_width="204dp"
         android:layout_height="98dp"
         android:layout_gravity="center_horizontal"
@@ -23,7 +23,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/appIconImageView"
         android:layout_width="366dp"
         android:layout_height="249dp"
         android:contentDescription="@string/home_icon"
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.454" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/searchIconImageView"
         android:layout_width="19dp"
         android:layout_height="39dp"
         android:layout_marginEnd="344dp"
@@ -60,10 +60,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/zipSearchButton"
         android:layout_width="293dp"
         android:layout_height="48dp"
         android:layout_marginBottom="140dp"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
         android:text="@string/location_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,10 +73,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/gpsSearchButton"
         android:layout_width="293dp"
         android:layout_height="48dp"
         android:layout_marginBottom="88dp"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
         android:text="@string/currentlocation_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

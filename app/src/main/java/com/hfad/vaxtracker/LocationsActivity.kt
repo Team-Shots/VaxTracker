@@ -70,7 +70,7 @@ class LocationsActivity : AppCompatActivity() {
         // initializes/creates location request
         createLocationRequest()
 
-        val btnBackToFirstPage: Button = findViewById(R.id.newZipButton)
+        val btnBackToFirstPage: Button = findViewById(R.id.goBackButton)
         btnBackToFirstPage.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

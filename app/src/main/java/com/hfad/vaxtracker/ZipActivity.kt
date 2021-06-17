@@ -29,7 +29,7 @@ class ZipActivity : AppCompatActivity() {
     // onCreate of activity
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_locations)
+        setContentView(R.layout.activity_zip)
 
         if (intent.hasExtra("EXTRA_ZIP")) {
             zipConverter(applicationContext, intent.getStringExtra("EXTRA_ZIP"))
@@ -42,8 +42,8 @@ class ZipActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val btnBackToFirstPage: Button = findViewById(R.id.newZipButton)
-        btnBackToFirstPage.setOnClickListener {
+        val enterNewZipBtn: Button = findViewById(R.id.newZipButton)
+        enterNewZipBtn.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
@@ -158,28 +158,28 @@ class ZipActivity : AppCompatActivity() {
     // sets text, listener and intents for each location button
     fun setLocationViews(locationsArray: MutableList<dbLocation>) {
         // grabs button views to modify
-        val loc1 = findViewById<Button>(R.id.locationButton1)
-        val loc2 = findViewById<Button>(R.id.locationButton2)
-        val loc3 = findViewById<Button>(R.id.locationButton3)
+        val loc1 = findViewById<Button>(R.id.locationZipButton1)
+        val loc2 = findViewById<Button>(R.id.locationZipButton2)
+        val loc3 = findViewById<Button>(R.id.locationZipButton3)
         // sets button texts to display name and distance of each location
         loc1.text = locationsArray[0].locName + ": " + locationsArray[0].dist + " miles away"
         loc2.text = locationsArray[1].locName + ": " + locationsArray[1].dist + " miles away"
         loc3.text = locationsArray[2].locName + ": " + locationsArray[2].dist + " miles away"
 
         // inserts top 3 location objects into the buttons intent
-        val loc1Button: Button = findViewById(R.id.locationButton1)
+        val loc1Button: Button = findViewById(R.id.locationZipButton1)
         loc1Button.setOnClickListener {
             val intent = Intent(this, DetailsActivity::class.java)
             intent.putExtra("EXTRA_LOCATION", locationsArray[0])
             startActivity(intent)
         }
-        val loc2Button: Button = findViewById(R.id.locationButton2)
+        val loc2Button: Button = findViewById(R.id.locationZipButton2)
         loc2Button.setOnClickListener {
             val intent = Intent(this, DetailsActivity::class.java)
             intent.putExtra("EXTRA_LOCATION", locationsArray[1])
             startActivity(intent)
         }
-        val loc3Button: Button = findViewById(R.id.locationButton3)
+        val loc3Button: Button = findViewById(R.id.locationZipButton3)
         loc3Button.setOnClickListener {
             val intent = Intent(this, DetailsActivity::class.java)
             intent.putExtra("EXTRA_LOCATION", locationsArray[2])

@@ -26,8 +26,9 @@ class DetailsActivity : AppCompatActivity() {
         // view other locations button redirects back to the locations page
         val viewOtherLocBtn : Button = findViewById(R.id.view_other_locations_button)
         viewOtherLocBtn.setOnClickListener {
-            val intent = Intent(this, LocationsActivity :: class.java)
-            startActivity(intent)
+//            val intent = Intent(this, LocationsActivity :: class.java)
+//            startActivity(intent)
+            finish()
         }
 
         // call location button sends intent to dial phone number

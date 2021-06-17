@@ -7,6 +7,7 @@
     <string name="zipcode_hint">Enter Your Zip Code</string>
     <string name="location_button">Find a Location Near You</string>
     <string name="currentlocation_button">Use My Current Location</string>
+    <string name="return_home">Home Page</string>
 
     <string name="new_zip">Enter New Zip Code</string>
     <string name="display_locations">Locations near</string>

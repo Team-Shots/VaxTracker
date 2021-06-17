@@ -4,7 +4,6 @@ package com.hfad.vaxtracker
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -18,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val zipField = findViewById<View>(R.id.editTextZipField) as EditText
 
         // button launches search activity with zip code
-        val btnOpenSecondPage: Button = findViewById(R.id.button)
+        val btnOpenSecondPage: Button = findViewById(R.id.zipSearchButton)
         btnOpenSecondPage.setOnClickListener {
             // grabs zip code from entry field and puts it as extra in the intent
             val zipCode = zipField.text.toString()
@@ -31,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         // button launches search activity with gps
-        val btnOpenFourthPage: Button = findViewById(R.id.button2)
+        val btnOpenFourthPage: Button = findViewById(R.id.gpsSearchButton)
         btnOpenFourthPage.setOnClickListener {
             val intent = Intent(this, LocationsActivity::class.java)
             startActivity(intent)
