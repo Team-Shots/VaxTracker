@@ -26,8 +26,7 @@ class DetailsActivity : AppCompatActivity() {
         // view other locations button redirects back to the locations page
         val viewOtherLocBtn : Button = findViewById(R.id.view_other_locations_button)
         viewOtherLocBtn.setOnClickListener {
-//            val intent = Intent(this, LocationsActivity :: class.java)
-//            startActivity(intent)
+            // closes the activity to return to the previous activity
             finish()
         }
 
@@ -39,11 +38,16 @@ class DetailsActivity : AppCompatActivity() {
             startActivity(dialIntent)
         }
 
+        val url = Uri.parse(locationObject.locWebsite).toString()
+
         // visit website button sends intent to open a web browser
         val visitWebsiteBtn: Button = findViewById(R.id.visit_website_button)
         visitWebsiteBtn.setOnClickListener {
-            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(locationObject.locWebsite))
-            startActivity(browserIntent)
+//            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(locationObject.locWebsite))
+//            startActivity(browserIntent)
+            val intent = Intent(this, WebViewActivity :: class.java)
+            intent.putExtra("URL", url)
+            startActivity(intent)
         }
     }
 }

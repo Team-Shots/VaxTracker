@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VaxTracker">
+        <activity android:name=".WebViewActivity" />
         <activity android:name=".ZipActivity" />
         <activity android:name=".DetailsActivity" />
         <activity android:name=".ConfirmationActivity" />
