@@ -26,7 +26,7 @@ class DetailsActivity : AppCompatActivity() {
         // view other locations button redirects back to the locations page
         val viewOtherLocBtn : Button = findViewById(R.id.view_other_locations_button)
         viewOtherLocBtn.setOnClickListener {
-            val intent = Intent(this, LocationsActivity :: class.java )
+            val intent = Intent(this, LocationsActivity :: class.java)
             startActivity(intent)
         }
 
