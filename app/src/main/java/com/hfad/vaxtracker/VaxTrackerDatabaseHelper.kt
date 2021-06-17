@@ -25,12 +25,17 @@ internal class VaxTrackerDatabaseHelper(context: Context?) :
                         + "WEBSITE TEXT);"
             )
             insertLocation(
-                db, "Bartell Drug", "1628 5th Avenue, Seattle, Washington 98101", "(206) 622-0582",
-                "https://www.bartelldrugs.com/store/downtown/#scheduler"
+                db,
+                "Pharmaca Integrative Pharmacy",
+                "15840 Redmond Way Redmond, WA 98052",
+                "(425) 885-2323",
+                "https://pharmaca.as.me/redmond"
             )
             insertLocation(
-                db, "Walgreen Drug Store", "222 Pike Street, Seattle, Washington", "(206) 903-8392",
-                "https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"
+                db, "Overlake Medical Center",
+                "1035 116th Ave NE, Bellevue, WA 98004",
+                "(425) 688-5000",
+                "https://www.overlakehospital.org/safe-in-our-care/covid-19-vaccine-information"
             )
             insertLocation(
                 db,
@@ -47,15 +52,18 @@ internal class VaxTrackerDatabaseHelper(context: Context?) :
                 "https://covid-19vaccine-100874.square.site/"
             )
             insertLocation(
-                db, "CVS", "1401 2nd Avenue, Seattle, Washington 98101", "(206) 494-3251",
-                "https://www.cvs.com/vaccine/intake/store/covid-screener/covid-qns"
+                db,
+                "Safeway Pharmacy",
+                "12519 NE 85th St Kirkland, WA 98033",
+                "(425) 822-9235",
+                "https://local.pharmacy.safeway.com/wa/kirkland/12519-ne-85th-st.html"
             )
             insertLocation(
                 db,
-                "Genoa Healthcare",
-                "4200 Stone Way North Suite P1, Seattle, Washington 98103",
-                "(206) 480-0100",
-                "https://a.flexbooker.com/widget/ac492cfe-aaa7-4b28-aba9-6337cb396e22/employee/Seattle20177-clinica#chooseService"
+                "Rite Aid",
+                "20330 Ballinger Way NE, Shoreline, WA 98155",
+                "(206) 368-0034",
+                "https://www.riteaid.com/pharmacy/covid-qualifier"
             )
             insertLocation(
                 db,
@@ -66,10 +74,10 @@ internal class VaxTrackerDatabaseHelper(context: Context?) :
             )
             insertLocation(
                 db,
-                "Fred Hutch/SCCA Covid-19 Vaccine Program",
-                "1100 Fairview Avenue North, Seattle, Washington 98109",
-                "(206) 667-5000",
-                "https://www.solvhealth.com/book-online/AM8450"
+                "Sea Mar Everett Medical Clinic",
+                "1920 100th St SE building b, Everett, WA 98208",
+                "(425) 312-0202",
+                "https://www.seamar.org/covid-vaccine.html"
             )
             insertLocation(
                 db,
@@ -79,8 +87,25 @@ internal class VaxTrackerDatabaseHelper(context: Context?) :
                 "https://mychartos.uwmedicine.org/prod01/covid19#/"
             )
             insertLocation(
-                db, "Costco", "4401 4th Avenue South, Seattle, Washington 98134", "(206) 682-6244",
-                "https://book.appointment-plus.com/d133yng2#/"
+                db,
+                "CVS Pharmacy",
+                "107 Bellevue Way SE, Bellevue, WA 98004",
+                "(425) 454-1818",
+                "https://www.cvs.com/immunizations/covid-19-vaccine?icid=cvs-home-hero1-link1-coronavirus-vaccine"
+            )
+            insertLocation(
+                db,
+                "Medical Center Pharmacy",
+                "450 NW Gilman Blvd # 107, Issaquah, WA 98027",
+                "(425) 392-8650",
+                "https://issaquahpharmacy.com/"
+            )
+            insertLocation(
+                db,
+                "Albertsons Pharmacy",
+                "3066 Issaquah-Pine Lake Rd SE, Sammamish, WA 98075",
+                " (425) 391-1582" ,
+                "https://www.albertsons.com/vaccinations/home?icmpid=alb_yxt_r5_cvhc_ih"
             )
         }
     }
