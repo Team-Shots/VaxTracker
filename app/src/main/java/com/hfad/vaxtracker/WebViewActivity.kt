@@ -27,5 +27,11 @@ class WebViewActivity : AppCompatActivity() {
         myWebView.settings.domStorageEnabled = true
         myWebView.webViewClient = WebViewClient()
         myWebView.loadUrl(url)
+
+        val visitConfirmationActivity: Button = findViewById(R.id.close_button)
+        visitConfirmationActivity.setOnClickListener {
+            val intent = Intent(this, ConfirmationActivity :: class.java )
+            startActivity(intent)
+        }
     }
 }

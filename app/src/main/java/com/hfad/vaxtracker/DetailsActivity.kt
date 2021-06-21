@@ -43,8 +43,6 @@ class DetailsActivity : AppCompatActivity() {
         // visit website button sends intent to open a web browser
         val visitWebsiteBtn: Button = findViewById(R.id.visit_website_button)
         visitWebsiteBtn.setOnClickListener {
-//            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(locationObject.locWebsite))
-//            startActivity(browserIntent)
             val intent = Intent(this, WebViewActivity :: class.java)
             intent.putExtra("URL", url)
             startActivity(intent)

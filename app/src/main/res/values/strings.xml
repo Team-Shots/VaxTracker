@@ -13,13 +13,10 @@
     <string name="display_locations">Locations near</string>
     <string name="current_location"> ---current location placeholder---</string>
 
-    <string name="AppointmentDetails">Monday, June 5th @2:30PM</string>
-    <string name="AppointmentReview">Please review your appointment details below:</string>
+    <string name="AppointmentReview">Consider checking out the resources below prior to your appointment.</string>
     <string name="AddToCalButton">Add to Your Calendar</string>
-    <string name="ConfirmText">You\'re All Set!</string>
-    <string name="calicon">CalIcon</string>
-    <string name="Location">Fred Meyer</string>
-    <string name="LocationAddress">12221 120th Ave NE, Kirkland, WA 98034</string>
+    <string name="ConfirmText">Thanks for using VaxTracker!</string>
+    <string name="CDCLink">CDC Vaccine Apt. Info </string>
 
 
     <string name="SelectDifferentLocation"> Select a Different Location</string>
@@ -27,5 +24,6 @@
     <string name="PhoneNumber"> 📞 555-555-5555</string>
 
     <string name="finding_locations">Finding Nearest Locations...</string>
+    <string name="close">Close</string>
 
 </resources>
