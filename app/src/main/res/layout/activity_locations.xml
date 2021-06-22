@@ -35,8 +35,8 @@
 
     <TextView
         android:id="@+id/displayLocationsTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="210dp"
+        android:layout_height="94dp"
         android:layout_marginTop="32dp"
         android:text="@string/display_locations"
         android:textSize="20dp"
@@ -44,30 +44,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar0" />
 
-    <TextView
-        android:id="@+id/currentLocationTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="486dp"
-        android:text="@string/current_location"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/displayLocationsTextView" />
-
     <Button
         android:id="@+id/locationButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="56dp"
         android:backgroundTint="@color/teal_200"
-        android:textColor="@color/black"
         android:text="@string/finding_locations"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/currentLocationTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/displayLocationsTextView" />
 
     <Button
         android:id="@+id/locationButton2"

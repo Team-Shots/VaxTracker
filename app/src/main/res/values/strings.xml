@@ -10,7 +10,7 @@
     <string name="return_home">Home Page</string>
 
     <string name="new_zip">Enter New Zip Code</string>
-    <string name="display_locations">Locations near</string>
+    <string name="display_locations">Nearby Locations with Available Appointments</string>
     <string name="current_location"> ---current location placeholder---</string>
 
     <string name="AppointmentReview">Consider checking out the resources below prior to your appointment.</string>
